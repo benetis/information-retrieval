@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:description" content="Guide to VAT refund for visitors to the EU - Taxation and Customs Union" />
+<meta property="og:type" content="taxud_basic_page" />
+<meta property="og:title" content="Guide to VAT refund for visitors to the EU - Taxation and Customs Union - European Commission" />
+<meta property="robots" content="follow,index" />
+<meta property="revisit-after" content="15 Days" />
+<link rel="shortcut icon" href="https://ec.europa.eu/taxation_customs/sites/taxation/themes/taxud_template/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:image" content="https://ec.europa.eu/taxation_customs/sites/taxation/files/og_image/commissioneuropenne_logo-1030x712.jpg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="date" content="13/09/2016" />
+<meta property="og:site_name" content="Taxation and Customs Union" />
+<meta name="keywords" content="taxation, customs, travelling, VAT, refund, tax-free shopping, Taxation and Customs Union, European Commission, European Union, EU" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="description" content="Guide to VAT refund for visitors to the EU - Taxation and Customs Union" />
+<meta name="classification" content="16000" />
+<meta name="creator" content="COMM/DG/UNIT" />
+<meta name="reference" content="COMM/INDIVIDUALS/TRAVELLING/TRAVELLERS-LEAVING-EU/GUIDE-VAT-REFUND-VISITORS-EU/EN" />
+<meta name="description" content="If you are a visitor to the EU and are about to leave EU territory to go home or to some other place outside the EU, you may be able to buy goods free of VAT. &quot;Tax-free&quot; shopping: who is a ‘visitor’?" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://ec.europa.eu/taxation_customs/individuals/travelling/travellers-leaving-eu/guide-vat-refund-visitors-eu_en" />
+<link rel="shortlink" href="https://ec.europa.eu/taxation_customs/individuals/travelling/travellers-leaving-eu/guide-vat-refund-visitors-eu_en" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://ec.europa.eu/taxation_customs/individuals/travelling/travellers-leaving-eu/guide-vat-refund-visitors-eu_en" />
+<meta name="twitter:title" content="Guide to VAT refund for visitors to the EU" />
+<meta name="twitter:description" content="If you are a visitor to the EU and are about to leave EU territory to go home or to some other place outside the EU, you may be able to buy goods free of VAT. &quot;Tax-free&quot; shopping: who is a ‘visitor’?" />
+  <title>Guide to VAT refund for visitors to the EU - European Commission</title>
+  <style type="text/css" media="all">
+@import url("https://ec.europa.eu/taxation_customs/modules/system/system.base.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/system/system.menus.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/system/system.messages.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/system/system.theme.css?pen76z");
+</style>
+<style type="text/css" media="all">
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/features/cce_basic_config/cce_basic_config.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/ckeditor_lite/css/ckeditor_lite.all.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/comment/comment.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/date/date_api/date.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/date/date_popup/themes/datepicker.1.7.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/custom/ecas/ecas_import_users/css/ecas_import_users.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/features/events/events_resources/css/events_resources.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/field/theme/field.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/features/multisite_multilingual_references/css/multisite_multilingual_references.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/node/node.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/search/search.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/modules/user/user.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/views/css/views.css?pen76z");
+</style>
+<style type="text/css" media="all">
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/colorbox/styles/default/colorbox_style.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/ctools/css/ctools.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/rate/rate.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/tagclouds/tagclouds.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/video/css/video.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/print/print_ui/css/print_ui.theme.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/custom/multisite_drupal_toolbox/icons/style.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/jquery.fancybox.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/helpers/jquery.fancybox-buttons.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/helpers/jquery.fancybox-thumbs.css?pen76z");
+</style>
+<style type="text/css" media="all">
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/css/ec_resp.css?pen76z");
+@import url("https://ec.europa.eu/taxation_customs/sites/taxation/themes/taxud_template/css/taxud_template.css?pen76z");
+</style>
+<style type="text/css" media="print">
+@import url("https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/css/print.css?pen76z");
+</style>
+<style type="text/css" media="all">
+@import url("https://ec.europa.eu/taxation_customs/sites/taxation/libraries/ecl/styles/europa.css?pen76z");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/scripts/html5shiv.min.js"></script>
+    <script src="/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/scripts/respond.min.js"></script>
+  <![endif]--> 
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/misc/drupal.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/features/ec_embedded_image/ec_embedded_image.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/features/multisite_multilingual_references/js/multisite_multilingual_references.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/colorbox/jquery.colorbox-min.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/colorbox/js/colorbox.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/colorbox/styles/default/colorbox_style.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/custom/language_selector_page/js/language_selector_page.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/modules/contrib/video/js/video.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/sites/taxation/libraries/ecl/scripts/europa.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/jquery.fancybox.pack.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/helpers/jquery.fancybox-buttons.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/helpers/jquery.fancybox-media.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/libraries/fancybox/helpers/jquery.fancybox-thumbs.js?pen76z"></script>
+<script type="text/javascript" defer="defer" src="//europa.eu/webtools/load.js"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/bootstrap/js/bootstrap.min.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/sites/taxation/themes/taxud_template/scripts/taxud.js?pen76z"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/taxation_customs\/","pathPrefix":"","ajaxPageState":{"theme":"taxud_template","theme_token":"tq1fqpRcP8GCSWXZUkLFiOgaaR_zjBp06eD2pO99qX8","js":{"profiles\/multisite_drupal_standard\/themes\/ec_resp\/scripts\/ec.js":1,"profiles\/multisite_drupal_standard\/themes\/ec_resp\/scripts\/jquery.mousewheel.min.js":1,"profiles\/multisite_drupal_standard\/themes\/ec_resp\/scripts\/ec_resp.js":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/multisite_drupal_standard\/modules\/features\/ec_embedded_image\/ec_embedded_image.js":1,"profiles\/multisite_drupal_standard\/modules\/features\/multisite_multilingual_references\/js\/multisite_multilingual_references.js":1,"profiles\/multisite_drupal_standard\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/multisite_drupal_standard\/modules\/custom\/language_selector_page\/js\/language_selector_page.js":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/video\/js\/video.js":1,"sites\/taxation\/libraries\/ecl\/scripts\/europa.js":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/jquery.fancybox.pack.js":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/helpers\/jquery.fancybox-buttons.js":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/helpers\/jquery.fancybox-media.js":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/helpers\/jquery.fancybox-thumbs.js":1,"\/\/europa.eu\/webtools\/load.js":1,"profiles\/multisite_drupal_standard\/themes\/ec_resp\/bootstrap\/js\/bootstrap.min.js":1,"sites\/taxation\/themes\/taxud_template\/scripts\/taxud.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/multisite_drupal_standard\/modules\/features\/cce_basic_config\/cce_basic_config.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/ckeditor_lite\/css\/ckeditor_lite.all.css":1,"modules\/comment\/comment.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/multisite_drupal_standard\/modules\/custom\/ecas\/ecas_import_users\/css\/ecas_import_users.css":1,"profiles\/multisite_drupal_standard\/modules\/features\/events\/events_resources\/css\/events_resources.css":1,"modules\/field\/theme\/field.css":1,"profiles\/multisite_drupal_standard\/modules\/features\/multisite_multilingual_references\/css\/multisite_multilingual_references.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/views\/css\/views.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/rate\/rate.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/tagclouds\/tagclouds.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/video\/css\/video.css":1,"profiles\/multisite_drupal_standard\/modules\/contrib\/print\/print_ui\/css\/print_ui.theme.css":1,"profiles\/multisite_drupal_standard\/modules\/custom\/multisite_drupal_toolbox\/icons\/style.css":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/jquery.fancybox.css":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/helpers\/jquery.fancybox-buttons.css":1,"profiles\/multisite_drupal_standard\/libraries\/fancybox\/helpers\/jquery.fancybox-thumbs.css":1,"profiles\/multisite_drupal_standard\/themes\/ec_resp\/css\/ec_resp.css":1,"sites\/taxation\/themes\/taxud_template\/css\/taxud_template.css":1,"profiles\/multisite_drupal_standard\/themes\/ec_resp\/css\/print.css":1,"sites\/taxation\/libraries\/ecl\/styles\/europa.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"pathToTheme":"profiles\/multisite_drupal_standard\/themes\/ec_resp","urlIsAjaxTrusted":{"http:\/\/ec.europa.eu\/search":true},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-290 node-type-taxud-basic-page narrow-page i18n-en" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<header class="ecl-site-header" role="banner">
+
+  <div class="ecl-site-switcher ecl-site-switcher--header">
+    <h2 class="ecl-u-sr-only">ECL site switcher</h2><ul id="ecl-site-switcher" class="ecl-site-switcher__list ecl-container"><li class="menu-1687 ecl-site-switcher__option"><a href="https://ec.europa.eu/commission/index" class="ecl-site-switcher__link ecl-link">Commission and its priorities</a></li>
+<li class="menu-1688 ecl-site-switcher__option ecl-site-switcher__option--is-selected"><a href="https://ec.europa.eu/info/index" class="ecl-site-switcher__link ecl-link">Policies, information and services</a></li>
+</ul>  </div>
+
+<div class="ecl-container ecl-site-header__banner">
+
+    <a href="https://ec.europa.eu" class="ecl-logo ecl-logo--logotype ecl-site-header__logo" title="Home - European Commission">
+      <span class="ecl-u-sr-only">Home - European Commission</span>
+    </a>
+
+    <div class="ecl-lang-select-sites ecl-site-header__lang-select-sites">
+      <a href="/taxation_customs/language-selector/site-language_en?destination=node/290" class="ecl-lang-select-sites__link"><span class="ecl-lang-select-sites__label">English</span><span class="ecl-lang-select-sites__code"><span class="ecl-icon ecl-icon--language ecl-lang-select-sites__icon"></span><span class="ecl-lang-select-sites__code-text">en</span></span></a>
+    </div>
+
+    <form class="ecl-search-form ecl-site-header__search" action="http://ec.europa.eu/search" method="get" id="nexteuropa-europa-search-search-form" accept-charset="UTF-8"><input type="hidden" name="query_source" value="TAXUD" />
+<input class="ecl-text-input ecl-search-form__textfield form-control form-text" title="Search" type="text" id="edit-querytext" name="QueryText" value="" size="15" maxlength="128" /><button class="form-submit ecl-button ecl-button--form ecl-search-form__button" tabindex="-1" type="submit" id="edit-europa-search-submit" name="op">Search</button><input type="hidden" name="swlang" value="en" />
+<input type="hidden" name="form_build_id" value="form-WU_xu7uwSEgr4jglk04M86zB-1Ic21uMdn7FqagkyCk" />
+<input type="hidden" name="form_id" value="nexteuropa_europa_search_search_form" />
+<div class='hide'></div><div class='hide'></div></form>  </div>
+</header>
+
+<div class="ecl-page-header">
+  <div class="ecl-container">
+    <nav class="ecl-breadcrumbs " aria-label="breadcrumbs"><span class="ecl-u-sr-only">You are here:</span><ol class="ecl-breadcrumbs__segments-wrapper"><li class="ecl-breadcrumbs__segment ecl-breadcrumbs__segment--first"><a href="http://ec.europa.eu/index_en.htm" class="ecl-breadcrumbs__link">European Commission</a></li><li class="ecl-breadcrumbs__segment ecl-breadcrumbs__segment--first"><a href="/taxation_customs/home_en" class="ecl-breadcrumbs__link">Taxation and Customs Union</a></li><li class="ecl-breadcrumbs__segment"><a href="/taxation_customs/individuals_en" class="easy-breadcrumb_segment easy-breadcrumb_segment-1 ecl-breadcrumbs__link">Citizens</a></li><li class="ecl-breadcrumbs__segment"><a href="/taxation_customs/individuals/travelling_en" class="easy-breadcrumb_segment easy-breadcrumb_segment-2 ecl-breadcrumbs__link">Traveling</a></li><li class="ecl-breadcrumbs__segment"><a href="/taxation_customs/individuals/travelling/travellers-leaving-eu_en" class="easy-breadcrumb_segment easy-breadcrumb_segment-3 ecl-breadcrumbs__link">Travellers leaving the EU</a></li><li class="ecl-breadcrumbs__segment ecl-breadcrumbs__segment--last"><span class="breadcrumb__text">Guide to VAT refund for visitors to the EU</span></li></ol></nav>    <div class="ecl-page-header__body">
+      <div class="ecl-page-header__identity">
+        Taxation and Customs Union      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbarcontainer">
+  <div class="region-featured-wrapper">
+    
+      <div class="region region-featured">
+    
+<nav class="ecl-navigation-menu" aria-label="Main Navigation">
+  <div class="ecl-container">
+    <button class="ecl-navigation-menu__toggle ecl-navigation-menu__hamburger ecl-navigation-menu__hamburger--squeeze" aria-controls="nav-menu-expandable-root" aria-expanded="false">
+      <span class="ecl-navigation-menu__hamburger-box">
+        <span class="ecl-navigation-menu__hamburger-inner"></span>
+      </span>
+      <span class="ecl-navigation-menu__hamburger-label">Menu</span>
+    </button>
+        <ul class="ecl-navigation-menu__root" id="nav-menu-expandable-root" aria-hidden="true"><li class="ecl-navigation-menu__item"><a href="/taxation_customs/home_en" class="ecl-navigation-menu__link">Home</a></li>
+<li class="ecl-navigation-menu__item"><a href="/taxation_customs/business_en" class="ecl-navigation-menu__link">Business</a></li>
+<li class="ecl-navigation-menu__item ecl-navigation-menu__item--active"><a href="/taxation_customs/individuals_en" class="ecl-navigation-menu__link">Citizens</a></li>
+<li class="ecl-navigation-menu__item"><a href="/taxation_customs/customs_en" class="ecl-navigation-menu__link">Customs</a></li>
+<li class="ecl-navigation-menu__item"><a href="/taxation_customs/taxation_en" class="ecl-navigation-menu__link">Taxation</a></li>
+<li class="ecl-navigation-menu__item"><a href="/taxation_customs/online-services_en" class="ecl-navigation-menu__link">Online services</a></li>
+<li class="ecl-navigation-menu__item"><a href="/taxation_customs/about_en" class="ecl-navigation-menu__link">About</a></li>
+</ul>  </div>
+</nav>
+  </div>
+
+  </div>
+</div>
+
+<div class="ecl-container">
+
+    <div id="layout-body" class="container"> 
+       
+            
+    <div class="row">
+           
+
+      <div id="content-wrapper" class="col-lg-12 col-md-12 col-sm-12 col-md-12">
+        
+        <a id="content"></a>
+
+      
+    <div class="row">
+      
+                  <h1 class="col-lg-8 col-md-8 col-sm-12 col-xs-12" id="page-title">
+                Guide to VAT refund for visitors to the EU      </h1>
+            
+      
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            </div>
+    </div>
+
+       
+
+        <a id="main-content"></a>
+
+                <div class="tabs">
+                  </div>
+        
+                
+        
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="region region-content">
+    <div id="block-bean-laco" class="block block-bean panel panel-default clearfix" >
+  
+
+  <div class="panel-body content">
+  <div class="entity entity-bean bean-webtools clearfix" about="/taxation_customs/block/laco_en" typeof="">
+        <div class="content">
+    <div class="field field-name-field-json-object field-type-json-settings field-label-hidden"><div class="field-items"><div class="field-item even"><script type="application/json">{
+"service"    : "laco",
+"include"    : ".region-content .panel-body a, .region-content-bottom .panel-body a, .link-ico",
+"exclude" : "a.exclude, .bean-homepage-links a, .site-level-language-selector a, .no-bubble, a[href*='.jsp']",
+"language": "all",
+"coverage" : {
+        "document" : "any",
+        "page" : "false"
+    }
+}</script></div></div></div>  </div>
+</div>
+  </div>
+
+</div>
+<div id="block-system-main" class="block block-system panel panel-default clearfix" >
+  
+
+  <div class="panel-body content">
+  <div id="node-290" class="node node-taxud-basic-page node-full clearfix" about="/taxation_customs/individuals/travelling/travellers-leaving-eu/guide-vat-refund-visitors-eu_en" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Guide to VAT refund for visitors to the EU" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  <div class="content clearfix">
+    
+    
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><div class="layout-center-reset" id="content">
+<div class="euText euText_1">
+<p>If you are a visitor to the EU and are about to leave EU territory to go home or to some other place outside the EU, you may be able to buy goods free of VAT.</p>
+<h2>"Tax-free" shopping: who is a &lsquo;visitor&rsquo;?</h2>
+<p class="hidden-anchor" id="section_1" name="section_1"></p>
+<h3>What is VAT?</h3>
+<p>Value added tax (VAT) is a multi-stage sales tax, the final burden of which is borne by the private consumer. VAT at the appropriate rate will be included in the price you pay for the goods you purchase. As a visitor to the EU who is returning home or going on to another non-EU country, you may be eligible to buy goods free of VAT in special shops.</p>
+<p class="hidden-anchor" id="section_2" name="section_2"></p>
+<h3>Who is a &lsquo;visitor&rsquo;?</h3>
+<p>A &lsquo;visitor&rsquo; is any person who permanently or habitually lives in a country outside the EU. Your address as shown in your passport or other identity document will be taken as the place where you permanently or habitually live.</p>
+<p> <em>Example: Eduardo lives and works in Brazil but spends three months every summer in Portugal, where he has a time-share in a villa. Eduardo&rsquo;s permanent address is in Brazil, so he is a &lsquo;visitor&rsquo; to the EU while in Portugal.</em> </p>
+<p>In some countries, you may also qualify as a &lsquo;visitor&rsquo; if you are living in an EU country for a defined period of time for a specific purpose, but your permanent home is outside the EU and you are not intending to return to the EU in the immediate future. EU citizens permanently living in non-EU countries are also eligible for the VAT refund.</p>
+<p> <em>Example: Paul is a Belgian citizen but lives permanently in Canada. Once a year, he returns to Belgium to visit his parents. Paul is a &lsquo;visitor&rsquo; and can apply for a refund on a basis of his Canadian residence card.</em> </p>
+<h2>&lsquo;Tax-free&rsquo; shopping: how is the VAT refunded?</h2>
+<p class="hidden-anchor" id="section_3" name="section_3"></p>
+<h3>Can&rsquo;t I just pay the VAT-free price in the shop?</h3>
+<p>No. You must pay the full, VAT-inclusive price for the goods in the shop; you will get the VAT refunded once you have complied with the formalities and can show proof of export.</p>
+<p>How do I go about this?</p>
+<ul><li>When you are in the shop, ask the shop assistant in advance whether they provide this service.</li>
+<li>Ask the shop assistant what threshold applies to the purchase in order to be eligible for a refund.</li>
+<li>At the check-out, the shop assistant will ask you to provide proof that you are a visitor to the EU. You will need to show your passport or other identity document proving your residence outside the EU.</li>
+<li>The shop assistant will ask you to fill in a form with the necessary details. You may be asked to show your ticket as proof you are leaving the EU within the required time. The shop assistant will fill in the shop&rsquo;s part of the form.</li>
+<li>Make sure you understand exactly what you need to do and how you receive the refund. In some cases, the shop itself will refund you. In other cases, the shop will use a third party to organise the refunds on its behalf.</li>
+<li>Make sure you understand whether the shop takes an administrative fee for this service (which will be later deducted from the refunded amount) and if so what is the fee.</li>
+<li>You will receive an invoice for the goods. You must show the invoice, the refund form, the goods and any other necessary documents to the customs officers of the last EU country you leave. The customs officers must stamp the form as proof of export. Without the stamp, you will not obtain the refund.</li>
+<li>You must then follow the steps explained at your refund document or by the shop assistant. You can claim your VAT refund in bigger airports immediately, otherwise you will have to send the refund form to the address given in the shop.</li>
+</ul><p> <strong>Attention! The precise details will depend on how that particular shop organises the refund procedure.</strong> </p>
+<p> <em>Example: John came from the US for a vacation in Europe. He bought a designer bag in Paris; some clothes and shoes in Milan and London. In each shop, he got refund forms filed. Within a month, John leaves to US from London. At the airport, he shows the purchased goods to the customs officer and gets the refund documents stamped. Some of the refund documents were provided by a refund intermediary- he finds their refund counter in the airport and gets the refund immediately. An administrative cost is deducted from the refund amount. The remaining stamped refund document he has to send back to the shop where he purchased the goods.</em> </p>
+<p class="hidden-anchor" id="section_4" name="section_4"></p>
+<h3>Will I get all the VAT refunded?</h3>
+<p>This is unlikely. In the great majority of cases, there will be an administrative charge for the service. Make sure you find out how much you will be charged when still in the shop.</p>
+<p class="hidden-anchor" id="section_5" name="section_5"></p>
+<h3>Can someone else go to the shop for me?</h3>
+<p>No. You must be there in person in order to make a VAT-free purchase, although you do not have to pay for the goods yourself.</p>
+<p class="hidden-anchor" id="section_6" name="section_6"></p>
+<h3>Will I have to wait until I am home to receive the refund?</h3>
+<p>Not necessarily. In some larger ports and airports, you may be able to obtain a refund straight away once the customs officers have stamped your form, provided the shop in which you bought the goods uses this facility.</p>
+<p class="hidden-anchor" id="section_7" name="section_7"></p>
+<h3>Where can I complain if I did not receive the refund?</h3>
+<p>You can complain to the company in which you bought the goods because this company has a principal responsibility to give the refund. If however that company used an intermediary you may first apply to the intermediary. European Commission does not intervene in particular cases of VAT refund to foreign visitors. &lsquo;Tax-free shopping&rsquo;: tax-free shops and qualifying goods</p>
+<p class="hidden-anchor" id="section_8" name="section_8"></p>
+<h3>Can I buy goods VAT-free from any shop?</h3>
+<p>No. Shops do not have to offer a VAT-free facility. Those that choose to do so must make the appropriate arrangements with the tax authorities.</p>
+<p class="hidden-anchor" id="section_9" name="section_9"></p>
+<h3>How shall I know whether a shop is a VAT-free shop?</h3>
+<p>The shop will usually display a prominent sign in the window, advertising that it is a &lsquo;tax-free&rsquo; or &lsquo;VAT-free&rsquo; shop. This may of course be in the local language.</p>
+<p class="hidden-anchor" id="section_10" name="section_10"></p>
+<h3>Can all goods be bought VAT-free?</h3>
+<p>No. There are some goods that do not qualify. The facility is intended for goods that could in principle be carried in personal luggage. Goods that have to be exported as freight, for example, and cars and yachts are excluded. Some countries may also exclude other categories of goods.</p>
+<p class="hidden-anchor" id="section_11" name="section_11"></p>
+<h3>Is there a threshold on each purchase?</h3>
+<p>To avoid administrative burdens over small-value items, there is a minimum value of EUR 175 (or the equivalent in national currency outside the euro zone) for the total purchase, but EU countries may set lower thresholds. The threshold applies to the total amount of goods bought in a certain shop. Normally, you cannot cumulate purchases in different shops to reach the threshold. You will receive a separate form in each shop in which you buy goods. You can enquire national tax authorities on the thresholds applicable in a particular EU country. You will be able to find the contact addresses for all national tax administrations in the document "<a href="http://ec.europa.eu/taxation_customs/business/vat/eu-country-specific-information-vat_en" target="_blank">VAT in the European Union</a>".</p>
+<p class="hidden-anchor" id="section_12" name="section_12"></p>
+<h3>How soon do the goods have to leave the EU?</h3>
+<p>The goods you buy VAT-free must leave the EU by the end of the third month after that in which you buy them.</p>
+<p> <em>Example Bruce, who lives in Canada, has been on holiday in Italy for two weeks. He buys a designer suit from a VAT-free shop on 10 September. The suit must leave EU territory no later than 31 December.</em> </p>
+<p class="hidden-anchor" id="section_13" name="section_13"></p>
+<h3>Do I need to take the goods with me when I leave the EU?</h3>
+<p>Yes. The goods must accompany you when you leave the EU. You cannot buy VAT-free goods if for any reason, you cannot or do not wish to take the goods with you when leaving the EU. Moreover, you have to be ready to demonstrate those goods to the customs officer who will stamp your VAT refund form.</p>
+<p class="hidden-anchor" id="section_14" name="section_14"></p>
+<h3>Do I have to leave the EU straight away from the country where I purchased goods?</h3>
+<p>No. You can buy VAT-free goods even if you are going to be visiting other EU countries before you finally return home, as long as you actually leave the EU with the goods within the time limit. You have to get your documents stamped by a customs officer at the point of exit of the EU &ndash; not necessary in the same EU country where you bought it.</p>
+<p class="hidden-anchor" id="section_15" name="section_15"></p>
+<h3>Be careful if you leave the EU by train!</h3>
+<p>You may be able to get the VAT refund documents stamped at certain train stations of the departure. However, you might as well need to get off the train at the last station within the EU to get this stamp. Other methods could also apply (e.g. a customs officer might be boarding the train) .</p>
+<p>This depends on the trains&rsquo; route and the internal arrangements in each EU country.</p>
+<p>We therefore strongly advise you to consult in advance the national authorities or your refund company on the arrangements applicable in our concrete route.</p>
+<p class="hidden-anchor" id="section_16" name="section_16"></p>
+<h3>What if I did not get a stamp?</h3>
+<p>In principle, the stamped VAT refund document is obligatory for VAT refund. Contact the entity in which you bought goods for the information whether they would accept other documents as a proof that the goods were exported in a due time and give you a refund.</p>
+<p class="hidden-anchor" id="section_17" name="section_17"></p>
+<h3>Whom should I contact for questions related to my refund?</h3>
+<p>Your primary contact is the supplier / VAT refund agent mentioned in your VAT refund documents. If you have questions on VAT refund rules applicable in a particular EU country, contact <a href="http://ec.europa.eu/taxation_customs/national-tax-websites_en" target="_blank">national tax authorities</a>. For questions on customs arrangements at a particular border, contact <a href="http://ec.europa.eu/taxation_customs/national-customs-websites_en" target="_blank">national customs authorities</a>.<br> The European Commission does not provide advice on particular situations.</p>
+<p>&nbsp;</p>
+<p> <span class="clear">&nbsp;</span> </p>
+</div>
+</div></body></html>
+</div></div></div>    
+    <div class="link-wrapper right">
+          </div>
+
+    
+  </div>
+</div>
+  </div>
+
+</div>
+  </div>
+          </div>
+
+          <div class="col-lg-0 col-md-0 col-sm-0 col-xs-0">
+                    </div>
+        </div>
+        
+        
+              </div>
+
+      <div class="clearfix visible-sm visible-xs"></div>
+      
+          </div>
+  </div><!-- /#layout-body -->
+</div>
+
+<footer class="ecl-footer">
+  <div class="ecl-footer__site-identity">
+    <div class="ecl-container">
+      <div class="ecl-row">
+        <div class="ecl-col-sm ecl-footer__column">
+          <h4 class="ecl-h4">
+            <a class="ecl-link ecl-footer__link" href="#">Taxation and Customs Union</a>
+          </h4>
+        </div>
+        <div class="ecl-col-sm ecl-footer__column">
+          <p class="ecl-footer__label">Follow us:</p><ul id="ecl-footer-follow-us-menu" class="ecl-footer__menu ecl-list--inline ecl-footer__social-links"><li class="menu-1699 ecl-footer__menu-item"><a href="https://www.flickr.com/photos/146315122@N05" class="ecl-icon ecl-footer__social-icon ecl-footer__link ecl-link">Flickr</a></li>
+<li class="menu-1700 ecl-footer__menu-item"><a href="https://twitter.com/EU_Taxud" class="ecl-icon ecl-footer__social-icon ecl-icon--twitter ecl-footer__link ecl-link">Twitter</a></li>
+<li class="menu-1701 ecl-footer__menu-item"><a href="https://www.youtube.com/EUTaxud" data-display-title="1" data-hide-children="0" class="ecl-icon ecl-footer__social-icon ecl-icon--video ecl-footer__link ecl-link" data-remove-class="0">YouTube</a></li>
+</ul>        </div>
+        <div class="ecl-col-sm ecl-footer__column">
+          <ul id="ecl-footer-improved-menu" class="ecl-footer__menu"><li class="menu-1702 ecl-footer__menu-item"><a href="https://ec.europa.eu/taxation_customs/newsletters_en" class="ecl-footer__link ecl-link">Newsletter</a></li>
+<li class="menu-1703 ecl-footer__menu-item"><a href="https://ec.europa.eu/taxation_customs/contacts_en" class="ecl-footer__link ecl-link">Contact</a></li>
+</ul>        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ecl-footer__site-corporate">
+    <div class="ecl-container">
+      <div class="ecl-row">
+        <div class="ecl-col-sm ecl-footer__column">
+          <h4 class="ecl-h4 ecl-footer__title">European Commission</h4><ul id="ecl-footer-ec_menu" class="ecl-footer__menu"><li class="menu-1687 ecl-footer__menu-item"><a href="https://ec.europa.eu/commission/index" class="ecl-footer__link ecl-link">Commission and its priorities</a></li>
+<li class="menu-1688 ecl-footer__menu-item"><a href="https://ec.europa.eu/info/index" class="ecl-footer__link ecl-link">Policies, information and services</a></li>
+</ul>        </div>
+        <div class="ecl-col-sm ecl-footer__column">
+          <h4 class="ecl-h4 ecl-footer__title">Follow the European Commission</h4><ul id="ecl-footer-follow-ec-menu" class="ecl-footer__menu ecl-footer__social-links ecl-list--inline"><li class="menu-1696 ecl-footer__menu-item"><a href="https://www.facebook.com/EuropeanCommission" class="ecl-icon ecl-icon--facebook ecl-footer__link ecl-link">Facebook</a></li>
+<li class="menu-1697 ecl-footer__menu-item"><a href="https://twitter.com/eu_commission" class="ecl-icon ecl-icon--twitter ecl-footer__link ecl-link">Twitter</a></li>
+<li class="menu-1698 ecl-footer__menu-item"><a href="http://ec.europa.eu/dgs/communication/services/journalist/social-media_en.htm" class="ecl-link--external ecl-footer__link ecl-link">Other social media</a></li>
+</ul>        </div>
+        <div class="ecl-col-sm ecl-footer__column">
+          <h4 class="ecl-h4 ecl-footer__title">European Union</h4><ul id="ecl-footer-eu-menu" class="ecl-footer__menu"><li class="menu-1689 ecl-footer__menu-item"><a href="https://europa.eu/european-union/about-eu/institutions-bodies" class="ecl-link--external ecl-footer__link ecl-link">EU institutions</a></li>
+<li class="menu-1690 ecl-footer__menu-item"><a href="https://europa.eu/european-union/index" class="ecl-link--external ecl-footer__link ecl-link">European Union</a></li>
+</ul>        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ecl-footer__ec">
+    <div class="ecl-container">
+      <div class="ecl-row">
+        <div class="ecl-col-sm ">
+          <ul id="ecl-footer-service-menu" class="ecl-footer__menu ecl-list--inline"><li class="menu-1691 ecl-footer__menu-item"><a href="https://ec.europa.eu/info/about-commissions-new-web-presence" class="ecl-footer__link ecl-link">About the Commission&#039;s new web presence</a></li>
+<li class="menu-1692 ecl-footer__menu-item"><a href="http://ec.europa.eu/info/resources-partners" class="ecl-footer__link ecl-link">Resources for partners</a></li>
+<li class="menu-1693 ecl-footer__menu-item"><a href="https://ec.europa.eu/info/cookies" class="ecl-footer__link ecl-link">Cookies</a></li>
+<li class="menu-1694 ecl-footer__menu-item"><a href="https://ec.europa.eu/info/legal-notice" class="ecl-footer__link ecl-link">Legal notice</a></li>
+<li class="menu-1695 ecl-footer__menu-item"><a href="https://ec.europa.eu/info/contact" class="ecl-footer__link ecl-link">Contact</a></li>
+</ul>        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/scripts/ec.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/scripts/jquery.mousewheel.min.js?pen76z"></script>
+<script type="text/javascript" src="https://ec.europa.eu/taxation_customs/profiles/multisite_drupal_standard/themes/ec_resp/scripts/ec_resp.js?pen76z"></script>
+<script type="application/json">{"utility":"piwik","siteID":"335","sitePath":["ec.europa.eu\/taxation_customs"],"is404":false,"is403":false,"instance":"ec.europa.eu"}</script>
+</body>
+</html>

@@ -1,0 +1,1040 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="KEYWords" contect="">
+<meta name="KEYWords" content="">
+<meta name="DEscription" contect='Spotlight: Juncker calls for EU as global player in State of the Union'>
+<meta name="Author" contect="China Economic Net">
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="xin_12992">
+<meta name="contentid" content="30294880">
+<meta name="publishdate" content="2018-09-13">
+<meta name="author" content="张懿">
+<meta name="source" content="Xinhua">
+<TITLE>
+Spotlight: Juncker calls for EU as global player in State of the Union
+--China Economic Net</TITLE>
+<link href="http://en.ce.cn/css/nen2012.css" rel="stylesheet" type="text/css">
+<link href="http://en.ce.cn/css/nen2012md.css" rel="stylesheet" type="text/css">
+<style>
+.leimgbox {
+	background: #F6F7F9;
+	float: left;
+	margin-top: 16px;
+	padding-top: 12px;
+}
+.leimgbox .picboxb {
+	width: 140px;
+	height: 145px;
+	float: left;
+	margin-left: 14px;
+	margin-right: 9px;
+	display: inline;
+	line-height: 18px;
+	text-align: left;
+}
+.leimgbox .picboxb img {
+	width: 140px;
+	height: 96px;
+	margin-bottom: 5px;
+}
+</style>
+<script language="javascript1.1" src="http://i1.ce.cn/english/images/tools.js">
+
+</script>
+<script type="text/javascript" language="javascript" src="http://english.ce.cn/include/entv_utf8.js">
+
+</script>
+<script>
+
+function bookmarkit() 
+ { 
+
+window.external.addFavorite(top.location.href,document.title) 
+} 
+ </script>
+<script language="JavaScript">
+
+				function getinfo(){
+				document.formarticle.allinfo.value=escape(article.outerHTML);
+				document.formarticle.caption.value=article_caption.innerHTML;
+				document.formarticle.location.value=this.location;
+				return true;
+				}
+				function openfill(){
+			    getinfo();
+				document.formarticle.submit();
+				return true;
+				}
+</script>
+<script language="javascript">
+
+function getsword()
+{
+        if(document.all.searchup.searchword1.value!="")
+        {
+                document.all.searchup.searchword.value="docstatus=10 and siteid=6 and  (doctype=10 or doctype=20)  and "+document.all.searchup.searchword1.value;
+        }
+        else
+        {
+                document.all.searchup.searchword.value="docstatus=10 and siteid=6 and doctype!=30"
+        }
+        document.all.searchup.submit();
+}
+</script>
+
+
+<script type="text/javascript" src="http://www.ce.cn/include/jqf.js"></script>
+<script type="text/javascript" src="http://www.ce.cn/js/new_video.js"></script>
+
+</head>
+
+<body>
+
+<!--顶部logo、导航、搜索框-->
+<script type="text/javascript">
+
+
+
+
+
+
+
+ 
+function search_check() {
+	var sword =document.getElementById("searchword").value.replace(/^\s+|\s+$/g,"");
+	if (sword=='' || sword=='please input your keywords') {
+		alert('please input your keywords');
+		return false;
+	} else {	
+		document.searchform.searchword.value = sword;
+		document.searchform.submit();
+	}
+}</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	//导航开始
+	$("#nav li").each(function(){
+		$(this).mouseover(function(){
+			if($(this).find("div").html()!=null)
+			{
+				$(this).find("div").show();				
+			}
+			
+			$(this).siblings().find("div").hide();
+		});
+		
+		$(this).mouseout(function(){
+			$(this).find("div").hide();
+		})
+		
+		$(this).find("div").mouseout(function(){
+			$(this).hide();
+		})
+	})
+	//导航结束	
+	//重要活动、国资动态切换开始
+	$("#zy_tab li:not(:first)").find("img").css("visibility","hidden");
+	$("#zy_tab li:not(:first) a").css("color","#000");
+	$("#zy_tab li").each(function(i){
+		$(this).mouseover(function(){
+			$(this).find("img").css("visibility","visible");
+			$(this).find("a").css("color","#990000");
+			$(this).siblings().find("img").css("visibility","hidden");
+			$(this).siblings().find("a").css("color","#000");
+			
+			if(i==0)
+			{
+				$("#zyhd").show();
+				$("#gzdt").hide();
+			}
+			else
+			{
+				$("#gzdt").show();
+				$("#zyhd").hide();
+			}
+		})
+	});
+	//重要活动、国资动态切换结束	
+	//理念图淡进淡出效果开始
+	window.addEvent('domready', function() {    
+		new FadeSlider('div.jb_banner ul li', {
+			indexBtns: 'ol.banner_ol li',
+					interval: 7000,   // 自动播放间隔 
+					duration: 3500    // 动画时间 
+		});
+	});
+	//理念图淡进淡出结束	
+	//民机产业切换开始
+	$("#mj_news ul:not(:first)").hide();
+	$("#mj_tag li").each(function(i){
+		$(this).mouseover(function(){
+			$(this).addClass("tag_sel").removeClass("tag_nosel");
+			$(this).siblings().addClass("tag_nosel").removeClass("tag_sel");
+			
+			$("#mj_news ul:eq("+i+")").show().siblings().hide();
+		})
+	})
+	//民机产业切换结束	
+	//产品展示切换开始
+	$("#cp_tag li").each(function(i){
+		$(this).mouseover(function(){
+			$(this).addClass("cp_tag_sel").removeClass("cp_tag_nosel");			
+			$(this).siblings().addClass("cp_tag_nosel").removeClass("cp_tag_sel");
+			
+			$(".cp_box .cp").eq(i).show().siblings().hide();
+		})
+	})
+	//产品展示切换结束
+	//企业责任/科普园地切换开始
+	$("#qy_kp ul:not(:first)").hide();
+	$("#tab_tag div").each(function(i){
+		$(this).mouseover(function(){
+			$(this).addClass("tag_sel").removeClass("tag_nosel");
+			$(this).siblings().addClass("tag_nosel").removeClass("tag_sel");
+			
+			$("#qy_kp ul:eq("+i+")").show().siblings().hide();
+		})
+	})	
+
+	//企业责任/科普园地切换结束
+})
+</script>
+
+
+
+
+
+<div class="logobox">
+     <div class="enlogo"><img src="http://en.ce.cn/images/enlogo.jpg" width="260" height="65" /></div>
+	 <div class="dataright"><img src="http://www.ce.cn/images/lang_en.png" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+ <!--<area shape="rect" coords="1,0,50,14" href="http://www.ce.cn/" target="_blank" />-->
+<area shape="rect" coords="57,0,106,14" href="http://www.ce.cn/" target="_blank" />
+<area shape="rect" coords="115,0,160,14" href="http://de.ce.cn/" target="_blank" />
+<area shape="rect" coords="168,0,203,14" href="http://kr.ce.cn/" target="_blank" />
+<area shape="rect" coords="213,0,248,14" href="http://ja.ce.cn/" target="_blank" />
+<area shape="rect" coords="255,0,297,14" href="http://es.ce.cn/" target="_blank" />
+<area shape="rect" coords="305,0,348,14" href="http://fr.ce.cn/" target="_blank" />
+<area shape="rect" coords="356,0,431,14" href="http://ru.ce.cn/" target="_blank" />
+<area shape="rect" coords="338,0,472,14" href="http://ar.ce.cn/" target="_blank" />
+</map>
+</div>
+	 
+	 <div class="dataleft" id="localtime">
+			
+	</div>
+	
+<script type="text/javascript">
+function showLocale(objD)
+{
+	var str,colorhead,colorfoot;
+	var arr_m= new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var yy = objD.getYear();
+	if(yy<1900) yy = yy+1900;
+	var MM = objD.getMonth();
+	var dd = objD.getDate();
+	if(dd<10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if(hh<10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if(mm<10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if(ss<10) ss = '0' + ss;
+	var ww = objD.getDay();
+	if  ( ww==0 )  colorhead="<font color=\"#666666\">";
+	if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#666666\">";
+	if  ( ww==6 )  colorhead="<font color=\"#666666\">";
+	if  (ww==0)  ww="Sunday";
+	if  (ww==1)  ww="Monday";
+	if  (ww==2)  ww="Tuesday";
+	if  (ww==3)  ww="Wednesday";
+	if  (ww==4)  ww="Thursday";
+	if  (ww==5)  ww="Friday";
+	if  (ww==6)  ww="Saturday";
+	colorfoot="</font>"
+	str = colorhead + ww + ",&nbsp;" + arr_m[MM] +"&nbsp;"+ dd + ",&nbsp;"+yy+ colorfoot;
+	return(str);
+}
+function tick()
+{
+	var today;
+	today = new Date();
+	document.getElementById("localtime").innerHTML = showLocale(today);
+	window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+	
+	 <div class="searchbox">
+	 
+	 
+	 <table width="300" border="0" cellpadding="0" cellspacing="0">
+  <form name="searchform" method="post" action="http://search.ce.cn/was5/web/search" onSubmit="return search_check()"><tr><td height="21" align="left" valign="middle" style="padding-right:20px;">
+    <input type="hidden" name="channelid" value="234084" />
+	<INPUT onclick="value=''" name="searchword" type="text" id="searchword" value="searchword" size="10" class="searchinput" /><INPUT name="image" type="image" src="http://en.ce.cn/images/enbgsear.jpg" align="absmiddle" width="67" height="20" complete="complete" alt="image" /></td></tr></FORM>
+</table>
+
+
+</td>
+      </tr>
+    </table></div>
+	
+
+</div>
+
+<div class="nav_ul">
+	<div class="navbox" id="nav">
+     <ul>
+	     <li style="background:0"><a href="http://en.ce.cn/" target="_blank">Home</a></li>
+		 <li><a href="http://en.ce.cn/National/" target="_blank">China</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/govt/index.shtml">Government</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/foreignaffairs/index.shtml">Foreign Affairs</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/Local/index.shtml">Local</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/stech/index.shtml">Sci & Tech</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/Education/index.shtml">Education</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/National/culture/index.shtml">Culture</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/National/environment/index.shtml">Environment</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>
+		 <li><a href="http://en.ce.cn/World/" target="_blank">World</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/World/Asia-Pacific/index.shtml" target="_blank">Asia & Pacific</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/World/Americas/index.shtml" target="_blank">America</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/World/Europe/index.shtml" target="_blank">Europe</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/World/Middleeast/index.shtml" target="_blank">Middle East</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/World/Africa/index.shtml" target="_blank">Africa</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/World/organization/index.shtml" target="_blank">Organization</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>
+		 <li><a href="http://en.ce.cn/Business/" target="_blank">Business</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/Macro-economic/index.shtml">Economy</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/Enterprise/index.shtml">Companies</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/index.shtml#industries">Industries</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Markets/index.shtml">Markets</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/policy/index.shtml">Policy</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/ti/index.shtml">Trade & Investment</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/sdata/index.shtml">Statistics</a></td>
+                    </tr>
+					<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Business/opinion/index.shtml">Opinion</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/World/biz/index.shtml">World Biz</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>
+		 <li><a href="http://en.ce.cn/Life/" target="_blank">Life</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/society/index.shtml">Society</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/trend/index.shtml">Odd News</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/travel/index.shtml">Travel</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/event/index.shtml">Event</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/health/index.shtml">Health</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/Life/food/">Cuisine</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/Life/book/index.shtml">Book</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>
+		 <li><a href="http://en.ce.cn/entertainment/" target="_blank">Entertainment</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/entertainment/gossip/">Celebrity</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/entertainment/movie/index.shtml">Movie & TV</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/entertainment/music/index.shtml">Music</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/entertainment/theater/index.shtml">Theater & Arts</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/entertainment/fashion/tstage/index.shtml">Fashion</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/entertainment/fashion/pageant/index.shtml">Beauty Pageant</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>  
+		 <li><a href="http://en.ce.cn/sports/" target="_blank">Sports</a>
+		     <div class="down_list">
+            	<table>
+                	<tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/sports/soccer/index.shtml">Soccer</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/sports/basketball/index.shtml">Basketball</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/sports/tennis/index.shtml">Tennis</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/sports/formula/index.shtml">Formula One</a></td>
+                    </tr>
+                    <tr>
+                    	<td style=" border-bottom:#fff 1px solid;"><a href="http://en.ce.cn/sports/athletics/index.shtml">Athletics</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="http://en.ce.cn/sports/others/index.shtml">Others</a></td>
+                    </tr>
+                </table>
+            </div>
+		 </li>
+		 <li><a href="http://en.ce.cn/Insight/" target="_blank">Insight</a></li>
+		 <li><a href="http://en.ce.cn/main/video/" target="_blank">Video</a></li>
+		 <li><a href="http://en.ce.cn/gallery/index.shtml" target="_blank">Photo</a></li>
+		 <li><a href="http://en.ce.cn/main/scoverage/" target="_blank">Special Coverage</a></li>
+	 </ul>
+	</div>
+</div>
+
+<div class="con" style="margin-top:10px;">
+  <div class="conleft">
+    <div class="conleftop">
+      <div class="letit">
+        Europe
+      </div>
+    </div>
+    <div id="article">
+      <div class="nrtit" id="article_title">
+        Spotlight: Juncker calls for EU as global player in State of the Union
+      </div>
+      <div class="nrcz">
+        <div class="czleft" id="article_time">Last Updated:
+          2018-09-13 14:19
+          | <span id="article_source">
+          Xinhua
+          </span> </div>
+        <div class="czright"><img src="/images/enicon1.jpg" width="11" height="11" />&nbsp;<a href="#" onClick="bookmarkit()"><span class="font14gray">Save</span></a>&nbsp;<img src="/images/enicon2.jpg" width="16" height="14" />&nbsp;<a href="#" onClick="doPrint();"><span class="font14gray">Print</span></a> &nbsp;<img src="/images/enicon3.jpg" width="14" height="10" />&nbsp;<a href="mailto:en_feedback@mail.ce.cn"><span class="font14gray">E-mail</span></a></div>
+      </div>
+      <div class="conjj" id="article_body">
+        <div class=TRS_Editor><p>In a wide-ranging Wednesday speech that touched on trade, migration, and global exchange currencies, European Commission President Jean-Claude Juncker used his final State of the Union Address to urge the European Union to take control of its destiny, and claim a place at the center stage of global politics.</p>
+<p>"We will always be a global payer but it is time we started being a global player too," President Juncker told Members of European Parliament, meeting in Strasbourg for their first plenary session since the summer break.</p>
+<p>"The world today needs a strong and united Europe," Juncker continued, claiming that the hour had come for European sovereignty.</p>
+<p>Across the spectrum of topics, his speech covered -- common European defense, responsibility for climate change action, development strategies for the African continent, multilateral decision making in global governance, Brexit, and even the elimination of changing the clocks for summer time -- the European Commission president stressed a "better than expected" record for his administration, and expressed an optimism in the future of Europe.</p>
+<p>A RESPECTABLE RECORD FOR JUNCKER'S ADMINISTRATION?</p>
+<p>Entering the last 12 months of his time in office, Juncker could be considered as looking to establish his legacy as European Commission President. His term, however, saw many overlapping crises rattle the continent, leaving the Luxembourger to face challenges related to terrorism, the refugee crisis, climate change, and the Greek euro crisis.</p>
+<p>Looking at the slow, but steady recovery from the global economic crisis, Juncker noted that Europe's economy had grown for 21 consecutive quarters. 12 million new jobs have been created in Europe since 2014, according to Juncker, and even if the 14.8 percent youth unemployment rate is too high, he said, it is the lowest it has been since 2000.</p>
+<p>Promising developments in the migration crisis, which saw over 1 million migrants arrive on Europe's shores in 2015, according to European Commission figures, was also a highlight for Juncker.</p>
+<p>"Arrivals have been drastically reduced -- down 97 percent in the Eastern Mediterranean and 80 percent in the Central Mediterranean," the European Commission president said, adding, "EU operations have helped rescue over 690,000 people at sea since 2015."</p>
+<p>AN AMBITIOUS, GLOBAL FUTURE FOR EUROPE</p>
+<p>The European Commission President Jean-Claude Juncker did not only focus on his record, however, turning also to ambitious proposals for a more unified Europe, strengthened and reinforced in order to take on its role as a player on the global stage.</p>
+<p>"Africa does not need charity, it needs true and fair partnerships. And Europe needs this partnership just as much," Juncker declared, before proposing a new Alliance for Sustainable Investment and Jobs between Europe and Africa. He estimated that this new alliance would create as many 10 million jobs in the next five years alone.</p>
+<p>For questions of migration, he called on the Presidency of the Council of the EU, currently held by Austria, to take definitive action on migration reform, so as to put an end to "ad-hoc" arrangements whenever a new migrant boat arrived. He also proposed to reinforce Europe's external borders by investing in the European Border and Coast Guard, adding ten thousand new border guards by 2020.</p>
+<p>Notably, Juncker also pushed for the European Union's official currency, the euro, to gain ground as a global trade currency. He unveiled proposals to strengthen the EU Economic and Monetary Union, in order to create a stronger Eurozone, and help displace the U.S. dollar as the leading global trade currency.</p>
+<p>The president even went so far as to mention the changing of daylight saving time, or summer time, after citizens' initiatives culminated in a European Parliament resolution calling for the end of clock changes twice a year.</p>
+<p>SEALING THE CRACKS BEFORE REACHING FOR THE STARS</p>
+<p>Emphasizing the strength of a unified Europe, Juncker used his State of the Union Address to look beyond the bloc, as far as outer space, praising the success of the Galileo space program, saying: "No single Member State could have put 26 satellites in orbit, for the benefit of 400 million users worldwide. No single Member State could have done this alone."</p>
+<p>Juncker used the example, and several others, to stress the need for unity in the EU, before it could fully grasp its destiny. This included finding solidarity in the face of a core member leaving the Union, in the case of Brexit, but also the difficult terrain of disciplining member states who appeared to be running counter to European values, as in the case of Poland and, most recently, Hungary.</p>
+<p>"In general, we must do more to revive the lost art of compromise. Compromise does not mean sacrificing our convictions or selling out on our values," Juncker said, in a reminder that the European treaties enshrine certain values that member states adopt when joining the EU.</p>
+<p>"The Commission will resist all attacks on the rule of law. We continue to be very concerned by the developments in some of our Member States. Article 7 must be applied whenever the rule of law is threatened," the European Commission president promised, making reference to Poland and Hungary. Later on Wednesday, the European Parliament voted to trigger a disciplinary procedure known as Article 7 on Hungary, with consequences possibly leading to the suspension of voting rights.</p>
+<p>"To love Europe, is it love its nations. To love your nation is to love Europe," Juncker declared as he reached his conclusion, warning against nationalism. "In short, we must remain true to ourselves."</p></div>
+      </div>
+    </div>
+    <div class="pageset" style="float:left;"> 
+      <script language="javascript1.1">
+
+// JavaScript Document
+
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+  if(_nPageCount == null || _nPageCount<=1){
+		return;
+	}
+
+//首页和Prev以及第一页的代码
+	//document.write("<span style=\"font-size:12px;\">?(<font color=\"#FF0000\">");
+	  //document.write(_nPageCount);
+	  //document.write("<\/FONT>)?</span>&nbsp;");
+	  //var fyn;
+	 var nStep=5
+	  var nCurrIndex = _nCurrIndex || 0;
+	  	if(nCurrIndex < 0)return;
+	
+	  if(nCurrIndex > 0)
+	  	document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" style=font-size:12px color:#0000FF>First</a>&nbsp;&nbsp;&nbsp;");
+	  else
+	    document.write("<span style=\"font-size:12px;\">First</span>&nbsp;&nbsp;&nbsp;");
+		
+	  if(nCurrIndex > 0){
+	      if(nCurrIndex == 1){
+		  document.write("<a href=\""+_sPageName+"."+_sPageExt+"\">Prev</a>&nbsp;&nbsp;&nbsp;");
+		  }else{document.write("<a href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\">Prev</a>&nbsp;&nbsp;&nbsp;");}
+	    }
+	  else{
+	    document.write("<span style=\"font-size:12px;\">Prev</span>&nbsp;&nbsp;&nbsp;");
+	    }
+	    /*if(nCurrIndex == 0)
+		document.write("1&nbsp;");
+	else
+		document.write("<a href=\""+_sPageName+"."+_sPageExt+"\">1</a>&nbsp;");*/
+
+//首页和Prev以及第一页的代码
+
+	if(_nPageCount<=4){//_nPageCount小于等于4的情?
+	if(nCurrIndex == 0)
+		document.write("<span style=\"color:#FF0000; font-size:12px\">1</span>&nbsp;");
+	else
+		document.write("<a href=\""+_sPageName+"."+_sPageExt+"\">1</a>&nbsp;");
+	for(var i=1; i<_nPageCount; i++){
+			if(nCurrIndex == i)
+				document.write("<span style=\"color:#FF0000; font-size:12px\">"+(i+1) + "</span>&nbsp;");
+			else
+				document.write("<a href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>&nbsp;");
+		}
+
+
+	}else{//_nPageCount小于等于4的情况end
+	//下面这个IF是判断是小于步长的一半的情况?;
+	if(nCurrIndex < Math.ceil(nStep/2)){ 	
+	        var xxxx=Math.ceil(nStep/2);
+	        //alert("步长?半的???:  "+xxxx+" nCurrIndex: "+nCurrIndex);
+	    	for(i=nCurrIndex;i<nCurrIndex+nStep;i++){
+	    		if(i == 0 && nCurrIndex==0){
+	    		document.write("<span style=\"color:#FF0000; font-size:12px\">1</span>&nbsp;&nbsp;");
+	    	  }
+			    if(i == 0 && nCurrIndex!=0){
+					document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" style=font-size:12px color:#0000FF>1</a>&nbsp;&nbsp;");}
+		  if(i > 0 && i <= _nPageCount){
+			  if(i==nCurrIndex)
+	    			document.write("<span style=\"color:#FF0000; font-size:12px\">"+(i+1)+"</span>&nbsp;&nbsp;");
+			  else
+	    			document.write("<a href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>&nbsp;&nbsp;");
+		  	}
+	  			}
+	  	var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时?;
+       //alert("nCurrIndex: "+nCurrIndex);
+	   if(nCurrIndex < (_nPageCount-1))
+	   document.write("&nbsp;&nbsp;<a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">Next</a>&nbsp;&nbsp;&nbsp;");	 
+	  	else if (nextOver <= nStep){
+	    document.write("&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;");}	
+      
+	  
+	     if(nCurrIndex != (_nPageCount-1))
+	     document.write("<a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\">End</a>&nbsp;&nbsp;");	
+	     else
+	     document.write("End");
+	  return false;
+	
+	    	}
+	
+	  for(i=Math.ceil(nCurrIndex-nStep/2);i<Math.ceil(nCurrIndex+nStep/2);i++){
+	   var ssssss=Math.ceil(nStep/2);
+	   //alert("步长?半的???11:  "+ssssss+" nCurrIndex11: "+nCurrIndex);
+		  //if(i > 0 && i <= _nPageCount){
+		  if(i > 0 && i <_nPageCount){
+			  if(i==nCurrIndex)
+	    		document.write("<span style=\"color:#FF0000; font-size:12px\">"+(i+1)+"</span>&nbsp;&nbsp;");
+			  else
+	    		document.write("<a href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>&nbsp;&nbsp;");
+		  }
+		  
+	  }	  
+	 } 
+	 
+
+	 //Next和末页的设置
+	   var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时?;
+	   if(nCurrIndex < (_nPageCount-1))
+	   document.write("&nbsp;&nbsp;<a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">Next</a>&nbsp;&nbsp;&nbsp;");	 
+	  	else if (nextOver <= nStep){
+	    document.write("&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;");}	
+      
+	  
+	  if(nCurrIndex != (_nPageCount-1))
+	     document.write("<a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\">End</a>&nbsp;&nbsp;");	
+		else
+	    document.write("End");
+	  //Next和末页的设置	
+
+
+
+}
+
+//函数结束?
+//WCM置标
+createPageHTML(1, 0, "t20180913_30294880", "shtml");	
+
+</script> 
+    </div>
+    <div class="nrshare">
+      <div style="float:right;">
+        <DIV class=bshare-custom><A class=bshare-facebook title="share to Facebook"></A><A class=bshare-twitter title="share to Twitter"><A class=bshare-qzone title="share to QQZone"></A><A class=bshare-sinaminiblog title="share to Sina"></A><A class=bshare-renren title="share to RenRen"></A><A class=bshare-qqmb title="share to QQ"></A><A class=bshare-douban title="share to DouBan"></A><A class="bshare-more bshare-more-icon more-style-addthis" title=更多平台></A><SPAN class="BSHARE_COUNT bshare-share-count">0</SPAN></DIV>
+      </div>
+      <div style="float:right">Share to&nbsp;</div>
+      <SCRIPT src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh" type=text/javascript charset=utf-8>
+
+</SCRIPT> 
+      <SCRIPT src="http://i.ce.cn/english/images/bshareC0.js" type=text/javascript charset=utf-8>
+
+</SCRIPT></div>
+    <div class="lepicboxtit">Related Articles:</div>
+    <div class="lepicbox">
+      <ul>
+        
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="lepicboxp"> 
+      
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30293280.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/13/W020180913404276714828.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30292569.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/13/W020180913366349791857.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30292542.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/13/W020180913373202266844.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30292527.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/13/W020180913371977239736.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/Business/topnews/201809/12/t20180912_30282481.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/Business/topnews/201809/12/W020180912413255319362.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/12/t20180912_30282220.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/12/W020180912485250035749.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/12/t20180912_30280792.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/12/W020180912354981253310.jpg" width=140 height=96 /></a></div>
+
+		       <div class="picboxg">
+	     <a href="HTTP://en.ce.cn/main/latest/201809/12/t20180912_30280727.shtml" target="_blank"><IMG SRC="http://i.ce.cn/english/main/latest/201809/12/W020180912352676591455.jpg" width=140 height=96 /></a></div>
+
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="conright"> 
+    
+    <style>
+.leimgbox {background:#F6F7F9; float:left; margin-top:16px; padding-top:12px;}
+.leimgbox .picboxb { width:140px; height:145px; float:left; margin-left:14px; margin-right:9px; display:inline; line-height:18px; text-align:left;}
+.leimgbox .picboxb a{color:#0D4E86}
+.leimgbox .picboxb img { width:140px; height:96px; margin-bottom:5px;}
+.entitc{float:left}
+</style>
+
+	      <div class="ritop">
+
+
+<a href='http://en.ce.cn/subject/bri/201803/23/t20180323_28584378.shtml' target='_blank'>
+<img src='http://i.ce.cn/english/main/button/201803/26/W020180326303230034641.jpg' alt='An Exclusive Interview with Pakistani Ambassador to China' style='width:325px;height:130px;' />
+</a>
+
+
+
+</div>
+
+<div class="entitc" style="float:none"><a href="http://en.ce.cn/main/scoverage/" target="_blank">Special Coverage</a></div>
+		  <div class="riziboxa">
+		      
+		       <div class="picboxc">
+
+
+<a href='http://en.ce.cn/subject/bri/index.shtml'  target='_blank'>
+<img src='http://i.ce.cn/english/main/scoverage/201803/26/W020180326306069323407.jpg' alt='The Belt and Road: Face to Face' style='width:140px;height:96px;' />
+</a>
+
+
+            <div class="czi"><a href="http://en.ce.cn/subject/bri/index.shtml" target="_blank">The Belt and Road: Face to Face is a program co-produced by China Economic Net and VSH News TV.</a></div></div>
+			
+			
+			<div class="lista" style="margin-top:15px;">
+     <ul>
+	     
+	         <li>
+<a href="http://en.ce.cn/subject/18/brics18/index.shtml" target="_blank">President Xi visits Arab and African countries, attends BRICS summit</a></li>
+		 
+	         <li>
+<a href="http://en.ce.cn/subject/18/sco18/index.shtml" target="_blank">SCO Qingdao Summit</a></li>
+		 
+	         <li>
+<a href="http://en.ce.cn/subject/18/rou/index.shtml" target="_blank">40th Anniv. of China's Reform & Opening-up</a></li>
+		 
+	         <li>
+<a href="http://en.ce.cn/subject/17xiongan/index.shtml" target="_blank">Xiongan New Area</a></li>
+		 
+		 <div class="clear"></div>
+	 </ul>
+</div>
+		  
+		  <div class="clear"></div>
+		  </div>
+		  
+		  <div class="entitc" style="margin-top:0;"><a href="http://en.ce.cn/end/photo/index.shtml" target="_blank">Photo</a></div>
+		  
+		  <div class="leimgbox" style="margin-top:0;">
+		     
+			  
+		       <div class="picboxb"><a href='HTTP://en.ce.cn/main/latest/201808/28/t20180828_30143925.shtml' target='_blank'>
+<img src='http://i.ce.cn/english/main/latest/201808/28/W020180828566507117462.jpg' alt='13th China Super Model Final Contest held in Qingdao' style='width:140px;height:96px;' /></a><br /><a href="HTTP://en.ce.cn/main/latest/201808/28/t20180828_30143925.shtml" target="_blank">13th China Super Model Final Contest held in Qingdao</a></div>
+	          
+		       <div class="picboxb"><a href='HTTP://en.ce.cn/main/latest/201808/21/t20180821_30084601.shtml' target='_blank'>
+<img src='http://i.ce.cn/english/main/latest/201808/21/W020180821353755568667.jpg' alt='Folk costume show held at 5,200-meter-high base camp of Mt. Qomolangma' style='width:140px;height:96px;' /></a><br /><a href="HTTP://en.ce.cn/main/latest/201808/21/t20180821_30084601.shtml" target="_blank">Folk costume show held at 5,200-meter-high base camp of Mt. Qomolangma</a></div>
+	          
+	 
+	 <div class="clear"></div>
+		  </div>
+		  
+		  <div class="entitc"><a href="../Insight/" target="_blank">Insight</a></div>
+		  <div class="riziboxa">
+		      
+		      <div class="riywbox">
+			        <div class="riywtit">
+<a href="HTTP://en.ce.cn/main/latest/201803/30/t20180330_28670487.shtml" target="_blank">China a promising land for innovative start-ups</a></div>
+					<div class="riywzi"><a href="HTTP://en.ce.cn/main/latest/201803/30/t20180330_28670487.shtml" target="_blank">Germany's D-Group published on March 27 "Dear Founder: do not look to the Valley, but to China!" The article stated that China has become the center of start-up companies, entrepreneurial accelerators and business incubators. About 7,500 business incubators in China have "produced" about 220,000 SMEs. Of the 232 large unicorn companies worldwide, 62 are from China, while Germany has only 4. The Chinese government increasingly values the image of an innovative country. Cities like Hangzhou have specific projects that fund start-up companies, providing entrepreneurs with venues, funding, and consulting services.
+
+</a></div>
+			   </div><div class="riywbox">
+			        <div class="riywtit">
+<a href="HTTP://en.ce.cn/main/latest/201711/07/t20171107_26784357.shtml" target="_blank">DFTP helps China's leasing sector soar to new heights</a></div>
+					<div class="riywzi"><a href="HTTP://en.ce.cn/main/latest/201711/07/t20171107_26784357.shtml" target="_blank">Leasing is a growing trend in the international airline and maritime sectors, and plays a large role in other industries where acquiring equipment is capital intensive. </a></div>
+			   </div>
+			   
+			    <div class="riywbox" style="background:0;">
+			        <div class="riywtit">
+<a href="HTTP://en.ce.cn/main/latest/201709/14/t20170914_25961666.shtml" target="_blank">Artists at forefront of driving global interest in Chinese culture</a></div>
+					<div class="riywzi"><a href="HTTP://en.ce.cn/main/latest/201709/14/t20170914_25961666.shtml" target="_blank">For four years running, the iSING! initiative to bring opera talent from across the world together in Suzhou to infuse their art with Chinese characteristics has become a fixture on the calendar for students and fans of the art form.</a></div>
+			   </div>
+		    
+		  </div>
+	 
+		  
+		  
+	      <div class="riadx">
+
+
+<a href='http://en.ce.cn/Business/sdata/' target='_blank'>
+<img src='http://i.ce.cn/english/main/button/201802/12/W020180212509735504073.jpg' alt='DATA' style='width:325px;height:240px;' />
+</a>
+
+
+
+
+</div>
+		  
+		  
+		  <div class="entitc">Most Popular</div>
+		  <div class="riziboxa">
+		    <div class="lista" style="margin-top:0;">
+     <ul>
+	     
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/13/t20180913_30293767.shtml" target="_blank">China's fiscal revenue growth slows in August</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/13/t20180913_30293703.shtml" target="_blank">Chinese e-car start-up makes NYSE debut</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/13/t20180913_30293697.shtml" target="_blank">Chinese online pharmacy, healthcare provider debuts on Nasdaq</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30293289.shtml" target="_blank">China building its largest marine fisheries research vessels</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30292452.shtml" target="_blank">Xi calls for strengthening cooperation in Northeast Asia for regional peace, prosperity</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/main/latest/201809/13/t20180913_30293280.shtml" target="_blank">In pics: open-day performance during 15th China-ASEAN Expo in Nanning</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/12/t20180912_30282027.shtml" target="_blank">China's A-share market sees share buybacks boom</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/12/t20180912_30282035.shtml" target="_blank">More than 7,000 PPP projects registered in MOF</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/12/t20180912_30281214.shtml" target="_blank">Full steam ahead for rail links</a></li>
+		 
+	         <li>
+<a href="HTTP://en.ce.cn/Business/topnews/201809/12/t20180912_30280015.shtml" target="_blank">Apple customers may pay price of trade tension</a></li>
+		 
+		 <div class="clear"></div>
+	 </ul>
+</div>
+		  
+		  <div class="clear"></div>
+		  </div>
+		  
+		  
+	      <div class="riadx">
+
+<a href='http://en.ce.cn/subject/Innovation/index.shtml' target='_blank'>
+<img src='http://i.ce.cn/english/main/button/201802/12/W020180212515347013687.jpg' alt='Innovation' style='width:325px;height:240px;' />
+</a>
+
+
+</div>
+		  
+    
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<div class="baup"><a href="#top">BACK TO TOP</a></div>
+<div class="baupbox">
+    <div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/National/" target="_blank">China</a></span></li>
+			<li><a href="http://en.ce.cn/National/govt/index.shtml" target="_blank">Government</a></li>
+			<li><a href="http://en.ce.cn/National/foreignaffairs/index.shtml" target="_blank">Foreign Affairs</a> </li>
+			<li><a href="http://en.ce.cn/National/Local/index.shtml" target="_blank">Local</a></li>
+			<li><a href="http://en.ce.cn/National/stech/index.shtml" target="_blank">Sci &amp; Tech</a></li>
+			<li><a href="http://en.ce.cn/National/Education/index.shtml" target="_blank">Education</a></li>
+			<li><a href="http://en.ce.cn/National/culture/index.shtml" target="_blank">Culture</a></li>
+			<li><a href="http://en.ce.cn/National/environment/index.shtml" target="_blank">Environment</a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/World/" target="_blank">World</a></span></li>
+			<li><a href="http://en.ce.cn/World/Asia-Pacific/index.shtml" target="_blank">Asia &amp; Pacific </a></li>
+			<li><a href="http://en.ce.cn/World/Americas/index.shtml" target="_blank">America</a></li>
+			<li><a href="http://en.ce.cn/World/Europe/index.shtml" target="_blank">Europe</a></li>
+			<li><a href="http://en.ce.cn/World/Middleeast/index.shtml" target="_blank">Middle East </a></li>
+			<li><a href="http://en.ce.cn/World/Africa/index.shtml" target="_blank">Africa</a></li>
+			<li><a href="http://en.ce.cn/World/organization/index.shtml" target="_blank">Organization</a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/Business/" target="_blank">Business</a></span></li>
+			<li><a href="http://en.ce.cn/Business/Macro-economic/index.shtml" target="_blank">Economy</a></li>
+			<li><a href="http://en.ce.cn/Business/Enterprise/index.shtml" target="_blank">Companies</a></li>
+			<li><a href="http://en.ce.cn/Business/index.shtml#industries" target="_blank">Industries</a></li>
+			<li><a href="http://en.ce.cn/Markets/index.shtml" target="_blank">Markets</a></li>
+			<li><a href="http://en.ce.cn/Business/policy/index.shtml" target="_blank">Policy</a></li>
+			<li><a href="http://en.ce.cn/Business/ti/index.shtml" target="_blank">Trade &amp; Investment</a></li>
+			<li><a href="http://en.ce.cn/Business/sdata/index.shtml" target="_blank">Statistics</a></li>
+			<li><a href="http://en.ce.cn/Business/opinion/index.shtml" target="_blank">Opinion</a></li>
+			<li><a href="http://en.ce.cn/World/biz/index.shtml" target="_blank">World Biz </a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/Life/" target="_blank">Life</a></span></li>
+			<li><a href="http://en.ce.cn/Life/society/index.shtml" target="_blank">Society</a></li>
+			<li><a href="http://en.ce.cn/Life/trend/index.shtml" target="_blank">Odd News </a></li>
+			<li><a href="http://en.ce.cn/Life/travel/index.shtml" target="_blank">Travel</a></li>
+			<li><a href="http://en.ce.cn/Life/event/index.shtml" target="_blank">Event</a></li>
+			<li><a href="http://en.ce.cn/Life/health/index.shtml" target="_blank">Health</a></li>
+			<li><a href="http://en.ce.cn/Life/food/" target="_blank">Cuisine</a></li>
+			<li><a href="http://en.ce.cn/Life/book/index.shtml" target="_blank">Book</a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/sports/" target="_blank">Sports</a></span></li>
+			<li><a href="http://en.ce.cn/sports/soccer/index.shtml" target="_blank">Soccer</a></li>
+			<li><a href="http://en.ce.cn/sports/basketball/index.shtml" target="_blank">Basketball</a></li>
+			<li><a href="http://en.ce.cn/sports/tennis/index.shtml" target="_blank">Tennis</a></li>
+			<li><a href="http://en.ce.cn/sports/formula/index.shtml" target="_blank">Formula One </a></li>
+			<li><a href="http://en.ce.cn/sports/athletics/index.shtml" target="_blank">Athletics</a></li>
+			<li><a href="http://en.ce.cn/sports/others/index.shtml" target="_blank">Others</a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/entertainment/" target="_blank">Entertainment</a></span></li>
+			<li><a href="http://en.ce.cn/entertainment/gossip/" target="_blank">Celebrity</a></li>
+			<li><a href="http://en.ce.cn/entertainment/movie/index.shtml" target="_blank">Movie &amp; TV</a></li>
+			<li><a href="http://en.ce.cn/entertainment/music/index.shtml" target="_blank">Music</a></li>
+			<li><a href="http://en.ce.cn/entertainment/theater/index.shtml" target="_blank">Theater &amp; Arts</a></li>
+			<li><a href="http://en.ce.cn/entertainment/fashion/tstage/index.shtml" target="_blank">Fashion</a></li>
+			<li><a href="http://en.ce.cn/entertainment/fashion/pageant/index.shtml" target="_blank">Beauty Pageant </a></li>
+		</ul>
+	</div>
+	
+	<div class="listc">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/Markets/index.shtml" target="_blank">Markets</a></span></li>
+			<li><a href="http://en.ce.cn/Markets/stocks/index.shtml" target="_blank">Stocks</a></li>
+			<li><a href="http://en.ce.cn/Markets/funds/index.shtml" target="_blank">Funds</a></li>
+			<li><a href="http://en.ce.cn/Markets/bonds/index.shtml" target="_blank">Bonds</a></li>
+			<li><a href="http://en.ce.cn/Markets/currencies/index.shtml" target="_blank">Currencies</a></li>
+			<li><a href="http://en.ce.cn/Markets/commodities/index.shtml" target="_blank">Commodities</a></li>
+			<li><a href="http://en.ce.cn/Markets/listed/index.shtml" target="_blank">Listed Companies </a></li>
+		</ul>
+	</div>
+	
+	<div class="listc" style="width:140px;">
+	    <ul style="width:140px;">
+		    <li><span><a href="http://en.ce.cn/Business/index.shtml#industries" target="_blank">Industries</a></span></li>
+			<li><a href="http://en.ce.cn/Industries/agriculture/index.shtml" target="_blank">Agriculture</a></li>
+			<li><a href="http://en.ce.cn/Industries/Aerospare/index.shtml" target="_blank">Aviation</a></li>
+			<li><a href="http://en.ce.cn/Industries/Auto/index.shtml" target="_blank">Auto</a></li>
+			<li><a href="http://en.ce.cn/Industries/MI/index.shtml" target="_blank">Culture &amp; Media</a> </li>
+			<li><a href="http://en.ce.cn/Industries/Energy&amp;Mining/index.shtml" target="_blank">Energy &amp; Resources</a> </li>
+			<li><a href="http://en.ce.cn/Industries/Financial-services/index.shtml" target="_blank">Financial Services </a></li>
+			<li><a href="http://en.ce.cn/Industries/iron&amp;steel/index.shtml" target="_blank">Iron ore &amp; Steel</a> </li>
+			<li><a href="http://en.ce.cn/Industries/IT/index.shtml" target="_blank">IT &amp; Telecom</a> </li>
+			<li style="width:140px;"><a href="http://en.ce.cn/Industries/manufacturing/index.shtml" target="_blank">Machinery Manufacturing </a></li>
+			<li><a href="http://en.ce.cn/Industries/Consumen-Industries/index.shtml" target="_blank">Pharma & Food</a> </li>
+			<li><a href="http://en.ce.cn/Industries/Property/index.shtml" target="_blank">Real Estate </a></li>
+			<li><a href="http://en.ce.cn/Industries/Retailing/index.shtml" target="_blank">Retailing</a></li>
+			<li><a href="http://en.ce.cn/Industries/tourism/index.shtml" target="_blank">Tourism</a></li>
+			<li><a href="http://en.ce.cn/Industries/Transport/index.shtml" target="_blank">Transport</a></li>
+		</ul>
+	</div>
+	
+	<div class="listc" style="height:20px;">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/Insight/" target="_blank">Insight</a></span></li>
+		</ul>
+	</div>
+	
+	<div class="listc" style="height:20px;">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/main/video/" target="_blank">Video</a></span></li>
+		</ul>
+	</div>
+	
+	<div class="listc" style="height:20px;">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/gallery/" target="_blank">Photo</a></span></li>
+		</ul>
+	</div>
+	
+	<div class="listc" style="height:20px;">
+	    <ul>
+		    <li><span><a href="http://en.ce.cn/main/scoverage/" target="_blank">Special Coverage</a> </span></li>
+		</ul>
+	</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="bottoma">
+    <div class="azia">Edition:</div>
+	<div class="azib"><a href="http://www.ce.cn/" target="_blank">Chinese</a> | <a href="http://big5.ce.cn/gate/big5/www.ce.cn/" target="_blank">BIG5</a> | <a href="http://de.ce.cn/" target="_blank">Deutsch</a> </div>
+</div>
+
+<div class="bottoma">
+    <div class="azia">Link:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+	<div class="azib">
+	
+	     <a href="http://www.xinhuanet.com/english/home.htm" target="_blank">Xinhuanet</a>
+	
+	
+	 | <a href="http://www.chinadaily.com.cn/" target="_blank">Chinadaily.com.cn</a>
+	 
+	 | <a href="http://english.people.com.cn/" target="_blank">People's Daily Online</a>
+	 
+	 | <a href="http://www.china.org.cn/index.htm" target="_blank">China.org.cn</a>
+	 
+	 | <a href="http://english.cntv.cn" target="_blank">CNTV</a>
+	 
+	 | <a href="http://english.china.com/" target="_blank">China.com</a>
+	 
+	 | <a href="http://www.globaltimes.cn/" target="_blank">Global Times</a>
+	 
+	 | <a href="http://www.ecns.cn/" target="_blank">Ecns.cn</a>
+	 
+	 | <a href="http://en.youth.cn/#" target="_blank">China Youth International</a>
+	 
+	 | <a href="http://english.visitbeijing.com.cn/" target="_blank">Visit Beijing</a>
+	 
+	 | <a href="http://eng.taiwan.cn/" target="_blank">Taiwan.cn</a>
+	 
+	 </div>
+</div>
+
+<div class="bottomb">
+     <div class="lezi">
+       <a href="http://en.ce.cn/dily/ce/201803/28/t20180328_28638656.shtml" target="_blank">About CE.cn</a> | <a href="http://en.ce.cn/dily/201803/28/t20180328_28641048.shtml" target="_blank">About the Economic Daily</a> | <a href="mailto:en_feedback@mail.ce.cn" target="_blank">Contact us</a><br />
+  Copyright 2003-2015 China Economic Net. All right reserved   </div>
+</div>
+
+<script type="text/javascript">
+
+
+
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9f249b3795223c42c05b7452f7be6798' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!--统计-->
+<div class="noplay">
+<script type="text/javascript">document.write(unescape("%3Cscript src='http://cl3.webterren.com/webdig.js?z=32' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:description" content="">
+<meta property="og:title" content="Department for Exiting the European Union">
+<meta property="og:url" content="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="GOV.UK">
+<meta name="twitter:card" content="summary">
+<meta name="govuk:analytics:organisations" content="&lt;D1197&gt;">
+<meta name="govuk:content-id" content="f323e83c-868b-4bcb-b6e2-a8f9bb40397e">
+<meta name="govuk:navigation-document-type" content="other">
+<meta name="govuk:user-journey-stage" content="finding">
+<meta name="govuk:schema-name" content="organisation">
+<meta name="govuk:publishing-application" content="whitehall">
+<meta name="govuk:format" content="organisation">
+<meta name="csrf-token" content="TjmTe8QS7CIMRhH56+Rl/fdGnRc1BQzddjDxICNcZbAnGlNESjCoHTHsUrv5uCn66uO1Rye5o/AlemBYJvy+oA==">
+<meta name="csrf-param" content="authenticity_token">
+    <meta charset="utf-8">
+    <title>Department for Exiting the European Union - GOV.UK</title>
+
+    <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css" crossorigin="anonymous" integrity="sha256-wLi6ixZSqsrSmNdPJHUiYBh/U4tQxAwkhPfzM8vDzys=">
+<!--<![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-2c1bb089ee71d4d70a08ba94e4b363a99542c8feddf3aa979bc4f8962aed5e02.css" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-062e553ef49a9f884a3a1f885c8a18e829b6557046b075e1384f6092a60151d1.css" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-11027733d1abeac34c7bf14e37fea30366ad3a87cfd7f7a084de3a3b4b838412.css" /><![endif]-->
+    <link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" crossorigin="anonymous" integrity="sha256-EHZRlSHC//u/das7DTsy7i2WrH6XePHN+sF3Hu/RocA=">
+
+    <link rel="stylesheet" media="all" href="https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css" crossorigin="anonymous" integrity="sha256-6exaX4LlwqF5J841bloFTLKAJewVR+xdAPXJjS7F5IE=">
+    <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-a4524544a53d57a7e259b4bb966b9c32557c98c920b77e52d09304642b68401a.js" crossorigin="anonymous" integrity="sha256-pFJFRKU9V6fiWbS7lmucMlV8mMkgt35S0JMEZCtoQBo="></script><![endif]-->
+
+    <link rel="shortcut icon" href="https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+    <link rel="mask-icon" href="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-de738c3fcce8ce2a91b67e89787090dc24a5cda0275ab6b75f6226c5b9619d3d.svg" color="#0b0c0c">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-180x180-ea1cbb1cbbeddfff275dfa6e8e46b84cd530892df79dc4882a8f99b802b49a90.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-167x167-181e404a50c572923285fb83f0fbd78da6b4e38e3ce52f8e6b8e29da8586450a.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-02457fcdcee8d309276305af2233d41bfb8fd055e855727d355e61bce7ffa9bb.png">
+    <link rel="apple-touch-icon" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-a318f305290c523aed80082456175b46c95350c0eeac93f42e78a71c7a55544e.png">
+
+    <meta name="theme-color" content="#0b0c0c">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-5c3d985d43c06c7c5efa157f99dcc22b3b62fcc9944669d4237fc2b78793baf2.css" crossorigin="anonymous" integrity="sha256-XD2YXUPAbHxe+hV/mdzCKzti/MmURmnUI3/Ct4eTuvI=">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie6-eedd25aaef3dadbb4e173b879f7585bb6a7caa3045b715d98efb33d90b25cf76.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie7-e77ac1463efb750c324309de3d592a240e60b8fbaa7e258f332182244407ffa4.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie8-29ec3d53129f0657e59d7dc2fc9f67e0219c721c4155f09bdeacc21bc3b3c94b.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/core-layout-print-9a2de3ce1590c8ca478a6f7edf5a2e4bad0c6291b1dd4a6e7ca85f653d9591b4.css" crossorigin="anonymous" integrity="sha256-mi3jzhWQyMpHim9+31ouS60MYpGx3UpufKhfZT2VkbQ=">
+
+
+
+    <meta property="og:image" content="https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+  <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-99779ed7ae5cd40fed513f442c9ccdae1ad0c8b6906fe662613c36b182395fa1.css">
+<!--<![endif]--><link rel="alternate" type="application/json" title="Department for Exiting the European Union" href="https://www.gov.uk/api/organisations/department-for-exiting-the-european-union">
+<link rel="alternate" type="application/atom+xml" title="Department for Exiting the European Union" href="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union.atom">
+<link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/collections/print-12d845e29cec549d1fa00ff603b63f839ade12d95e40eae358dbf99520e7f5c5.css" crossorigin="anonymous" integrity="sha256-EthF4pzsVJ0foA/2A7Y/g5reEtleQOrjWNv5lSDn9cU=">
+<link rel="canonical" href="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie6-4d5970516e4013874df4f11655ad2bb5f56eb08262798bdeb3f753239bf1c2b1.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie7-2f9195a39b38dec03b82b92cfd0e4ba34f4f7bc7a851b3f73108e0f1f8848565.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie8-c7332ab216611daa7e4021840833bda002fb61dc9a85e3bc172f687ed6096950.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="collections">
+</head>
+
+  <body>
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+
+    <div id="global-cookie-message">
+        <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+    </div>
+
+    <header role="banner" id="global-header" class="">
+      <div class="header-wrapper">
+        <div class="header-global">
+          <div class="header-logo">
+            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
+              <img src="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown_invert_trans-203e1db49d3eff430d7dc450ce723c1002542fe1d2bce661b6d8571f14c1043c.png" width="36" height="32" alt=""> GOV.UK
+            </a>
+          </div>
+            <a href="#search" class="search-toggle js-header-toggle">Search</a>
+
+  <form id="search" class="site-search" action="/search" method="get" role="search">
+    <div class="content">
+      <label for="site-search-text">Search</label>
+      <input type="search" name="q" id="site-search-text" title="Search" class="js-search-focus">
+      <input class="submit" type="submit" value="Search">
+    </div>
+  </form>
+
+        </div>
+        
+      </div>
+    </header>
+
+      <div id="user-satisfaction-survey-container"></div>
+
+
+    <div id="global-header-bar"></div>
+
+      <div class="wrapper" id="wrapper">
+          
+
+
+<div class="gem-c-breadcrumbs " data-module="track-click">
+  <ol>
+
+    <li class="gem-c-breadcrumbs__item ">
+        <a data-track-category="breadcrumbClicked" data-track-action="1" data-track-label="/" data-track-options='{"dimension28":"3","dimension29":"Home"}' class="" aria-current="false" href="/">Home</a>
+    </li>
+
+    <li class="gem-c-breadcrumbs__item ">
+        <a data-track-category="breadcrumbClicked" data-track-action="2" data-track-label="/government/organisations" data-track-options='{"dimension28":"3","dimension29":"Organisations"}' class="" aria-current="false" href="/government/organisations">Organisations</a>
+    </li>
+
+    <li class="gem-c-breadcrumbs__item ">
+        <a data-track-category="breadcrumbClicked" data-track-action="3" data-track-label="#content" data-track-options='{"dimension28":"3","dimension29":"Department for Exiting the European Union"}' class=" gem-c-breadcrumbs--current " aria-current="page" href="#content">Department for Exiting the European Union</a>
+    </li>
+  </ol>
+</div>
+
+
+
+    <main id="content" role="main" class="content ">
+      
+
+
+  <h1 class="visually-hidden">Department for Exiting the European Union</h1>
+
+  <div class="grid-row">
+    <div class="column-two-thirds organisation__margin-bottom">
+      <div class="gem-c-organisation-logo brand--department-of-energy-climate-change">
+    <div class="gem-c-organisation-logo__container gem-c-organisation-logo__crest gem-c-organisation-logo__crest--single-identity brand__border-color">
+      <span class="gem-c-organisation-logo__name">Department<br>for Exiting the<br>European Union</span>
+    </div>
+</div>
+
+
+    </div>
+
+      <div class="column-one-third organisation__margin-bottom">
+        
+        
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <section class="organisation__section-wrap organisation__margin-bottom" id="featured-documents">
+  <h2 class="visually-hidden">What the Department for Exiting the European Union is doing</h2>
+      <div class="gem-c-image-card gem-c-image-card--large brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="UK and EU flags" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/54253/s712_ukeuflags.jpeg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">20 April 2018 — Collection</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/collections/article-50-and-negotiations-with-the-eu">Article 50 and negotiations with the EU</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>Information about the Article 50 process and our negotiations for a new partnership with the European Union.</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+
+    <div class="grid-row">
+        <div class="column-one-third">
+            <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Dominic Raab delivering his speech" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/65113/s465_raab_govuk.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">23 August 2018 — News story</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/news/secretary-of-state-dominic-raabs-speech-on-no-deal-planning">Secretary of State Dominic Raab's speech on no deal planning</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>Dominic Raab gave a speech on planning for a no deal Brexit</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+        </div>
+        <div class="column-one-third">
+            <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Image of the White Paper" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/64298/s465_WhitePaper_GOV.png"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">17 July 2018 — Policy paper</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/publications/the-future-relationship-between-the-united-kingdom-and-the-european-union">The future relationship between the United Kingdom and the European Union</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>The United Kingdom will leave the European Union on 29 March 2019 and begin to chart a new course in the world.</p>
+
+<p>The Government will have delivered on the result of the 2016 referendum – the biggest democratic exercise in this country’s history. And it will have reached a key milestone in its principal mission – to build a country that works for everyone. A country that is stronger, fairer, more united and more outward-looking.</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+        </div>
+        <div class="column-one-third">
+            <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Image of Big Ben" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/64546/s465_westminster_govuk.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">24 July 2018 — Policy paper</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/publications/legislating-for-the-withdrawal-agreement-between-the-united-kingdom-and-the-european-union">Legislating for the Withdrawal Agreement between the United Kingdom and the European Union</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>The White Paper on Legislating for the Withdrawal Agreement between the United Kingdom and the European Union sets out how the Government will implement the final Withdrawal Agreement we reach with the EU in UK law.</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-one-third">
+            <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Houses of Parliament" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/63805/s465_Houses_of_Parliament_gov.uk.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">26 June 2018 — Press release</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/news/the-eu-withdrawal-bill-receives-royal-assent">The EU (Withdrawal) Bill receives Royal Assent</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>Work to prepare our statute book for Brexit set to begin as EU (Withdrawal) Act becomes law.</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+        </div>
+        <div class="column-one-third">
+            <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="UK and EU flags" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/59902/s465_IP_GOVUK.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">26 January 2018 — News story</p>
+
+        <h3 class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/news/open-letter-to-business-on-implementation-period">Open letter to business on Implementation Period</a>
+</h3>
+      <div class="gem-c-image-card__description"><div class="govspeak">
+<p>Chancellor, Brexit Secretary and Business Secretary write to businesses</p>
+</div></div>
+
+
+    </div>
+  </div>
+
+        </div>
+    </div>
+</section>
+
+
+  <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__margin-bottom" id="latest-documents">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--margin-bottom-2  ">Latest from the Department for Exiting the European Union</h2>
+
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+          <ol class="gem-c-document-list">
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/guidance/advice-for-british-nationals-travelling-and-living-in-europe">UK nationals in the EU: essential information</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-13">
+                    13 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Detailed guide
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/eu-withdrawal-act-2018-statutory-instruments/the-european-communities-designation-orders-revocation-eu-exit-regulations-2018">The European Communities (Designation Orders) (Revocation) (EU Exit) Regulations 2018</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-07">
+                     7 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Statutory instrument
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/eu-withdrawal-act-2018-statutory-instruments/the-european-union-definition-of-treaties-orders-revocation-eu-exit-regulations-2018">The European Union (Definition of Treaties Orders) (Revocation) (EU Exit) Regulations 2018</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-07">
+                     7 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Statutory instrument
+              </li>
+          </ul>
+      </li>
+    </ol>
+
+
+      <p class="organisation__margin-bottom brand--department-of-energy-climate-change">
+        <a href="/government/organisations/latest?organisations%5B%5D=department-for-exiting-the-european-union" class="brand__color">See all latest documents</a>
+      </p>
+
+        <section class="gem-c-subscription-links brand--department-of-energy-climate-change" data-module="gem-toggle">
+    <h2 class="visuallyhidden">Subscriptions</h2>
+    <ul class="gem-c-subscription-links__list">
+        <li class="gem-c-subscription-links__list-item">
+          <a class="gem-c-subscription-links__link gem-c-subscription-links__link--email-alerts brand__color" href="/government/email-signup/new?email_signup%5Bfeed%5D=https://www.gov.uk/government/organisations/department-for-exiting-the-european-union.atom">Get email alerts</a>
+        </li>
+
+        <li class="gem-c-subscription-links__list-item">
+          <a class="gem-c-subscription-links__link gem-c-subscription-links__link--feed brand__color" data-controls="feed-reader-a9eb" data-expanded="false" href="#">Subscribe to feed</a>
+        </li>
+    </ul>
+
+      <div class="gem-c-subscription-links__feed-box js-hidden" id="feed-reader-a9eb">
+        <p class="gem-c-subscription-links__feed-description js-hidden">Subscribe to feed</p>
+        
+<div class="govuk-form-group">
+    
+<label for="input-cbaec177" class="gem-c-label govuk-label ">
+  Copy and paste this URL into your feed reader
+</label>
+
+
+
+
+  <input type="text" name="feed-reader-box" id="input-cbaec177" value="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union.atom" class="gem-c-input govuk-input">
+</div>
+      </div>
+  </section>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__section-wrap organisation__margin-bottom" id="what-we-do">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--margin-bottom-2  ">What the Department for Exiting the European Union does</h2>
+
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      
+<div class="gem-c-govspeak govuk-govspeak ">
+    
+          <p></p>
+<div class="govspeak">
+<p>We are responsible for overseeing negotiations to leave the EU and establishing the future relationship between the UK and EU.</p>
+</div>
+          <p>
+            <a href="/government/organisations/department-for-exiting-the-european-union/about" class="brand__color">
+              Read more about what we do
+            </a>
+          </p>
+
+</div>
+    </div>
+
+      <div class="column-one-third">
+        <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--margin-bottom-2  ">Follow us</h3>
+
+          <div class="gem-c-share-links brand--department-of-energy-climate-change gem-c-share-links--stacked" data-module="track-click">
+
+    <ul class="gem-c-share-links__list">
+        <li class="gem-c-share-links__list-item">
+          <a target="_blank" rel="noopener noreferrer external" data-track-category="social media" data-track-action="twitter" class="gem-c-share-links__link brand__color" href="https://twitter.com/DExEUgov">
+            <span class="gem-c-share-links__link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                  <path fill="currentColor" d="M31.007 0H.993A.999.999 0 0 0 0 .993v30.014c0 .55.452.993.993.993h30.014a.997.997 0 0 0 .993-.993V.993A.998.998 0 0 0 31.007 0z"></path>
+                  <path fill="#FFF" d="M8 21.027a9.286 9.286 0 0 0 5.032 1.475c6.038 0 9.34-5.002 9.34-9.339 0-.143-.004-.284-.012-.425a6.619 6.619 0 0 0 1.639-1.699c-.6.265-1.234.439-1.885.516a3.287 3.287 0 0 0 1.443-1.816 6.571 6.571 0 0 1-2.086.797 3.28 3.28 0 0 0-5.592 2.993 9.311 9.311 0 0 1-6.766-3.43 3.294 3.294 0 0 0-.443 1.651 3.28 3.28 0 0 0 1.46 2.732 3.278 3.278 0 0 1-1.488-.411v.041a3.288 3.288 0 0 0 2.633 3.22 3.28 3.28 0 0 1-1.481.055 3.285 3.285 0 0 0 3.065 2.281 6.59 6.59 0 0 1-4.076 1.404A6.76 6.76 0 0 1 8 21.027z"></path>
+                </svg>
+
+            </span>Twitter - @DExEUgov</a>
+        </li>
+        <li class="gem-c-share-links__list-item">
+          <a target="_blank" rel="noopener noreferrer external" data-track-category="social media" data-track-action="facebook" class="gem-c-share-links__link brand__color" href="https://www.facebook.com/dexeugov/">
+            <span class="gem-c-share-links__link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                  <path fill="currentColor" d="M31.006 0H.993A.997.997 0 0 0 0 .993v30.014c0 .55.452.993.993.993h30.013a.998.998 0 0 0 .994-.993V.993A.999.999 0 0 0 31.006 0z"></path>
+                  <path fill="#FFF" d="M17.892 10.751h1.787V8.009L17.216 8c-2.73 0-3.352 2.045-3.352 3.353v1.828h-1.581v2.824h1.581V24h3.322v-7.995h2.242l.291-2.824h-2.533V11.52c.001-.623.415-.769.706-.769z"></path>
+                </svg>
+
+            </span>Facebook - DExEU</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+
+  <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__margin-bottom">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h2 class="gem-c-heading  gem-c-heading--padding  ">Documents</h2>
+
+    </div>
+  </div>
+
+    <div class="grid-row">
+        <div class="column-half">
+          <h3 class="gem-c-heading  gem-c-heading--font-size-24 gem-c-heading--padding  ">Our announcements</h3>
+
+              <ol class="gem-c-document-list">
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/government/news/programme-eu-uk-article-50-negotiations-brussels-wc-3-september-2018">Programme: EU-UK Article 50 negotiations Brussels, w/c 3 September 2018</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-05">
+                     5 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  News story
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/government/speeches/secretary-of-state-statement-to-parliament-september-4th-2018">Secretary of State: Statement to Parliament September 4th 2018</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-04">
+                     4 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Oral statement
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/government/announcements?departments%5B%5D=department-for-exiting-the-european-union">See all announcements</a>
+
+
+
+      </li>
+    </ol>
+
+        </div>
+        <div class="column-half">
+          <h3 class="gem-c-heading  gem-c-heading--font-size-24 gem-c-heading--padding  ">Our publications</h3>
+
+              <ol class="gem-c-document-list">
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/guidance/advice-for-british-nationals-travelling-and-living-in-europe">UK nationals in the EU: essential information</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-13">
+                    13 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Detailed guide
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/eu-withdrawal-act-2018-statutory-instruments/the-european-communities-designation-orders-revocation-eu-exit-regulations-2018">The European Communities (Designation Orders) (Revocation) (EU Exit) Regulations 2018</a>
+
+
+
+          <ul class="gem-c-document-list__item-metadata">
+              <li class="gem-c-document-list__attribute">
+                  <time datetime="2018-09-07">
+                     7 September 2018
+                  </time>
+              </li>
+              <li class="gem-c-document-list__attribute">
+                  Statutory instrument
+              </li>
+          </ul>
+      </li>
+      <li class="gem-c-document-list__item brand--department-of-energy-climate-change">
+        <a class="gem-c-document-list__item-title brand__color " href="/government/publications?departments%5B%5D=department-for-exiting-the-european-union">See all publications</a>
+
+
+
+      </li>
+    </ol>
+
+        </div>
+    </div>
+</section>
+
+
+    <div id="people">
+          <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__margin-bottom">
+    <div class="grid-row">
+      <div class="column-two-thirds">
+        <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--margin-bottom-2  ">Our ministers</h2>
+
+      </div>
+    </div>
+
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Dominic Raab MP" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/2272/s465_Dominic-Raab-2.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      <p class="gem-c-image-card__context">The Rt Hon</p>
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/dominic-raab">Dominic Raab MP</a>
+</span>
+      
+
+        <ul class="gem-c-image-card__list ">
+            <li class="gem-c-image-card__list-item">
+              <a class="brand__color" href="/government/ministers/secretary-of-state-for-exiting-the-european-union">Secretary of State for Exiting the European Union</a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Lord  Callanan" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/3124/s465_gov.uk-Lord_Callanan.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/lord-callanan">Lord  Callanan</a>
+</span>
+      
+
+        <ul class="gem-c-image-card__list ">
+            <li class="gem-c-image-card__list-item">
+              <a class="brand__color" href="/government/ministers/minister-of-state--54">Minister of State</a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Robin Walker MP" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/2807/s465_RobinWalker-Jul2016_3876.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/robin-walker">Robin Walker MP</a>
+</span>
+      
+
+        <ul class="gem-c-image-card__list ">
+            <li class="gem-c-image-card__list-item">
+              <a class="brand__color" href="/government/ministers/parliamentary-under-secretary-of-state--59">Parliamentary Under Secretary of State</a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Chris Heaton-Harris MP" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/2811/s465_Chris_Heaton-Harris.png"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/chris-heaton-harris">Chris Heaton-Harris MP</a>
+</span>
+      
+
+        <ul class="gem-c-image-card__list ">
+            <li class="gem-c-image-card__list-item">
+              <a class="brand__color" href="/government/ministers/parliamentary-under-secretary-of-state--79">Parliamentary Under Secretary of State</a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Suella Braverman MP" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/3345/s465_No10_2018_004_ReshuffleGOV_089.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/fernandes">Suella Braverman MP</a>
+</span>
+      
+
+        <ul class="gem-c-image-card__list ">
+            <li class="gem-c-image-card__list-item">
+              <a class="brand__color" href="/government/ministers/parliamentary-under-secretary-of-state--93">Parliamentary Under Secretary of State</a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+  </section>
+
+        
+          <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__margin-bottom">
+    <div class="grid-row">
+      <div class="column-two-thirds">
+        <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--margin-bottom-2  ">Our management</h2>
+
+      </div>
+    </div>
+
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    <figure class="gem-c-image-card__image-wrapper"><img class="gem-c-image-card__image" alt="Philip Rycroft" src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/544/s465_Philip_Rycroft_govuk.jpg"></figure>
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/philip-rycroft">Philip Rycroft</a>
+</span>
+      <div class="gem-c-image-card__description">Permanent Secretary (Department for Exiting the European Union)</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/sarah-healey">Sarah  Healey</a>
+</span>
+      <div class="gem-c-image-card__description">Director General</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/alex-ellis">Alex Ellis</a>
+</span>
+      <div class="gem-c-image-card__description">Director General</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/simon-case">Simon Case</a>
+</span>
+      <div class="gem-c-image-card__description">Director General</div>
+
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/susannah-storey">Susannah Storey</a>
+</span>
+      <div class="gem-c-image-card__description">Acting Director General</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/margaret-stephens">Margaret Stephens</a>
+</span>
+      <div class="gem-c-image-card__description">Chair of Audit and Risk Assurance Committee, Non-executive board member</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/susan-hooper">Susan Hooper</a>
+</span>
+      <div class="gem-c-image-card__description">Non-executive board member</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/rhys-bowen">Rhys Bowen</a>
+</span>
+      <div class="gem-c-image-card__description">Director for International Agreements and Trade</div>
+
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/tom-shinner">Tom Shinner</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Policy and Delivery Coordination</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/chris-jones">Chris Jones</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Justice, Security and Migration</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/chris-hobley">Chris Hobley</a>
+</span>
+      <div class="gem-c-image-card__description">Director of Market Access and Budget </div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/eoin-parker">Eoin Parker</a>
+</span>
+      <div class="gem-c-image-card__description">Director of Market Access and Budget </div>
+
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/matt-baugh">Matt Baugh</a>
+</span>
+      <div class="gem-c-image-card__description">Director of Negotiation Coordination Unit</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/james-roscoe-mvo">James  Roscoe MVO</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Communications and Stakeholders</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/joanna-key">Joanna  Key</a>
+</span>
+      <div class="gem-c-image-card__description"> Director for Legislation and Constitution</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/anna-clunes">Anna Clunes</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Institutions and Member States</div>
+
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/helen-mills">Helen Mills</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Human Resources and Corporate Centre</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/richard-ney">Richard Ney</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Finance and Corporate Centre</div>
+
+
+    </div>
+  </div>
+
+          </div>
+          <div class="column-quarter">
+              <div class="gem-c-image-card  brand--department-of-energy-climate-change">
+    
+
+    <div class="gem-c-image-card__text-wrapper">
+      
+
+        <span class="gem-c-image-card__title">
+              <a class="gem-c-image-card__title-link brand__color" href="/government/people/nathan-phillips">Nathan  Phillips</a>
+</span>
+      <div class="gem-c-image-card__description">Director for Planning and Analysis</div>
+
+
+    </div>
+  </div>
+
+          </div>
+      </div>
+  </section>
+
+        
+        
+        
+    </div>
+
+<div class="grid-row">
+  <div class="column-two-thirds">
+      <section class="brand--department-of-energy-climate-change organisation__margin-bottom" id="org-contacts">
+        <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--border-top-5 brand--department-of-energy-climate-change brand__border-color">Contact DExEU</h2>
+
+
+          <div class="organisation__contact-section organisation__contact-section--border-top">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">General enquiries </h3>
+
+
+    <div class="grid-row">
+        <address class="column-half organisation__margin-bottom organisation__address">
+             Correspondence Team<br>9 Downing Street<br>London<br>SW1A 2AS<br>United Kingdom<br>
+        </address>
+
+        <div class="column-half">
+
+            <div class="organisation__margin-bottom">
+                <p><a class="brand__color" href="https://email.dexeu.cabinetoffice.gov.uk/">Contact Form: General enquiries </a></p>
+            </div>
+
+            <div class="organisation__margin-bottom">
+            </div>
+
+        </div>
+    </div>
+    
+  </div>
+  <div class="organisation__contact-section organisation__contact-section--border-top">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">Media enquiries</h3>
+
+
+    <div class="grid-row">
+
+        <div class="column-two-thirds">
+            <div class="organisation__margin-bottom">
+              <p>Email</p>
+                <p><a class="brand__color" href="mailto:mediaoffice@dexeu.gov.uk">mediaoffice@dexeu.gov.uk</a></p>
+            </div>
+
+
+            <div class="organisation__margin-bottom">
+                <p>Media Office</p>
+                <p class="organisation__contact-number">020 7276 0432</p>
+            </div>
+
+        </div>
+    </div>
+    
+  </div>
+  <div class="organisation__contact-section organisation__contact-section--border-top">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">Stakeholder submissions</h3>
+
+
+    <div class="grid-row">
+        <address class="column-half organisation__margin-bottom organisation__address">
+            9 Downing Street<br>London<br>SW1A 2AS<br>United Kingdom<br>
+        </address>
+
+        <div class="column-half">
+            <div class="organisation__margin-bottom">
+              <p>Email</p>
+                <p><a class="brand__color" href="mailto:stakeholder.engagement@dexeu.gov.uk">stakeholder.engagement@dexeu.gov.uk</a></p>
+            </div>
+
+
+            <div class="organisation__margin-bottom">
+            </div>
+
+        </div>
+    </div>
+    <p>If you are an organisation, company or group wishing to submit material to DExEU, please use the contact details above.</p>
+  </div>
+  <div class="organisation__contact-section organisation__contact-section--border-top">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">Guidance on exiting the European Union</h3>
+
+
+    <div class="grid-row">
+
+    </div>
+    <p><a href="https://www.gov.uk/guidance/exiting-the-european-union" class="brand__color">https://www.gov.uk/guidance/exiting-the-european-union</a></p>
+  </div>
+  <div class="organisation__contact-section organisation__contact-section--border-top">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">Personal Information</h3>
+
+
+    <div class="grid-row">
+
+    </div>
+    <p>Our Personal Information Charter explains how we handle your information when you contact us. It also explains how to make a data protection request for your personal information: <a href="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union/about/personal-information-charter" class="brand__color">https://www.gov.uk/government/organisations/department-for-exiting-the-european-union/about/personal-information-charter</a></p>
+  </div>
+
+      </section>
+
+      <section class="brand--department-of-energy-climate-change brand__border-color organisation__brand-border-top organisation__margin-bottom" id="freedom-of-information">
+    <h2 class="gem-c-heading  gem-c-heading--padding  ">Make an FOI request</h2>
+
+
+    
+<div class="gem-c-govspeak govuk-govspeak ">
+    
+        <ol class="steps">
+          <li>
+            Read about the Freedom of Information (FOI) Act and <a href="https://www.gov.uk/make-a-freedom-of-information-request/the-freedom-of-information-act" class="brand__color">how to make a request</a>.
+          </li>
+          <li>
+            Check <a href="/government/publications?departments%5B%5D=department-for-exiting-the-european-union&amp;publication_type=foi-releases" class="brand__color">our previous releases</a> to see if we’ve already answered your question.
+          </li>
+            <li>Make a new request by contacting us using the details below.</li>
+        </ol>
+
+</div>
+
+        <div class="organisation__contact-section ">
+    <h3 class="gem-c-heading  gem-c-heading--font-size-19 gem-c-heading--padding  ">Freedom of information requests</h3>
+
+
+    <div class="grid-row">
+        <address class="column-half organisation__margin-bottom organisation__address">
+            DExEU FOI Team<br>LG20, 9 Downing Street<br>London<br>SW1A 2AG<br>United Kingdom<br>
+        </address>
+
+        <div class="column-half">
+            <div class="organisation__margin-bottom">
+              <p>Email</p>
+                <p><a class="brand__color" href="mailto:foi@dexeu.gov.uk">foi@dexeu.gov.uk</a></p>
+            </div>
+
+
+            <div class="organisation__margin-bottom">
+            </div>
+
+        </div>
+    </div>
+    
+  </div>
+
+</section>
+
+
+  </div>
+    <div class="organisation__corporate-information" id="corporate-info">
+      <div class="column-one-third organisation__float-section">
+      <h2 class="gem-c-heading  gem-c-heading--padding gem-c-heading--border-top-5 brand--department-of-energy-climate-change brand__border-color">Corporate information</h2>
+
+    <div class="">
+        <ol class="app-c-topic-list  brand--department-of-energy-climate-change app-c-topic-list--margin-bottom">
+      <li class="app-c-topic-list__item">
+        <a class="app-c-topic-list__link app-c-topic-list__link--no-underline brand__color" href="/government/publications?departments%5B%5D=department-for-exiting-the-european-union&amp;publication_type=corporate-reports">Corporate reports</a>
+      </li>
+      <li class="app-c-topic-list__item">
+        <a class="app-c-topic-list__link app-c-topic-list__link--no-underline brand__color" href="/government/publications?departments%5B%5D=department-for-exiting-the-european-union&amp;publication_type=transparency-data">Transparency data</a>
+      </li>
+  </ol>
+
+    </div>
+
+    <h3 class="gem-c-heading  gem-c-heading--font-size-24 gem-c-heading--margin-bottom-2  ">Jobs and contracts</h3>
+
+      <ol class="app-c-topic-list  brand--department-of-energy-climate-change app-c-topic-list--margin-bottom">
+      <li class="app-c-topic-list__item">
+        <a class="app-c-topic-list__link app-c-topic-list__link--no-underline brand__color" href="https://www.civilservicejobs.service.gov.uk/csr">Jobs</a>
+      </li>
+  </ol>
+
+
+    <p class="organisation__secondary-corporate-information brand--department-of-energy-climate-change">
+      Read about the types of information we routinely publish in our <a class="brand__color" href="/government/organisations/department-for-exiting-the-european-union/about/publication-scheme">Publication scheme</a>. Our <a class="brand__color" href="/government/organisations/department-for-exiting-the-european-union/about/personal-information-charter">Personal information charter</a> explains how we treat your personal information.
+    </p>
+</div>
+
+    </div>
+</div>
+
+
+    </main>
+
+      
+<div class="gem-c-feedback gem-c-feedback--top-margin" data-module="feedback">
+  <div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+    <div class="js-prompt-questions">
+      <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+
+      <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--useful js-page-is-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffYesClick" href="/contact/govuk">
+          Yes <span class="visually-hidden">this page is useful</span>
+</a>
+      <a class="gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffNoClick" aria-controls="page-is-not-useful" aria-expanded="false" role="button" href="/contact/govuk">
+          No <span class="visually-hidden">this page is not useful</span>
+</a>
+      <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--wrong js-toggle-form js-something-is-wrong" data-track-category="Onsite Feedback" data-track-action="GOV.UK Open Form" aria-controls="something-is-wrong" aria-expanded="false" role="button" href="/contact/govuk">
+          Is there anything wrong with this page?
+</a>    </div>
+
+    <div class="gem-c-feedback__prompt-success js-prompt-success js-hidden" tabindex="-1">
+      Thank you for your feedback
+    </div>
+  </div>
+
+  <form action="/contact/govuk/problem_reports" id="something-is-wrong" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-category="Onsite Feedback" data-track-action="GOV.UK Send Form" method="post">
+    <a href="#" class="gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-category="Onsite Feedback" data-track-action="GOV.UK Close Form" aria-controls="something-is-wrong" aria-expanded="true" role="button">Close</a>
+
+    <div class="gem-c-feedback__grid-row">
+      <div class="gem-c-feedback__column-two-thirds">
+        <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+
+        <input type="hidden" name="url" value="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union">
+        <input type="hidden" name="user_agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1">
+
+        <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+        <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+
+        
+<div class="govuk-form-group">
+    
+<label for="input-ad56fde5" class="gem-c-label govuk-label ">
+  What were you doing?
+</label>
+
+
+
+
+  <input type="text" name="what_doing" id="input-ad56fde5" class="gem-c-input govuk-input" aria-describedby="feedback_explanation">
+</div>
+
+        
+<div class="govuk-form-group">
+    
+<label for="input-d914ca1c" class="gem-c-label govuk-label ">
+  What went wrong?
+</label>
+
+
+
+
+  <input type="text" name="what_wrong" id="input-d914ca1c" class="gem-c-input govuk-input">
+</div>
+
+        
+  <button class="gem-c-button govuk-button" type="submit">Send</button>
+
+
+      </div>
+    </div>
+  </form>
+
+  <form action="/contact/govuk/email-survey-signup" id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-category="yesNoFeedbackForm" data-track-action="Send Form" method="post">
+    <a href="#" class="gem-c-feedback__close js-close-form" data-track-category="yesNoFeedbackForm" data-track-action="ffFormClose" aria-controls="page-is-not-useful" aria-expanded="true" role="button">Close</a>
+
+    <div class="gem-c-feedback__grid-row">
+      <div class="gem-c-feedback__column-two-thirds">
+        <div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+
+        <input type="hidden" name="url" value="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union">
+        <input type="hidden" name="user_agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1">
+
+        <input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey">
+        <input name="email_survey_signup[survey_source]" type="hidden" value="https://www.gov.uk/government/organisations/department-for-exiting-the-european-union">
+        <input name="email_survey_signup[ga_client_id]" type="hidden" value="1627485790.1515403243">
+
+        <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+        <p id="survey_explanation" class="gem-c-feedback__form-paragraph">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+
+        
+<div class="govuk-form-group">
+    
+<label for="input-bbb358eb" class="gem-c-label govuk-label ">
+  Email address
+</label>
+
+
+
+
+  <input type="email" name="email_survey_signup[email_address]" id="input-bbb358eb" class="gem-c-input govuk-input" aria-describedby="survey_explanation">
+</div>
+
+        
+  <button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+
+
+        <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=/government/organisations/department-for-exiting-the-european-union&amp;gcl=1627485790.1515403243" class="gem-c-feedback__email-link" id="take-survey" target="_blank" rel="noopener noreferrer">Don’t have an email address?</a>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+  </div>
+
+
+    <footer class="group js-footer" id="footer" role="contentinfo">
+
+      <div class="footer-wrapper">
+            <div class="footer-categories">
+      <div class="footer-explore">
+        <h2>Services and information</h2>
+
+        <ul>
+          <li><a href="/browse/benefits">Benefits</a></li>
+          <li><a href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+          <li><a href="/browse/business">Business and self-employed</a></li>
+          <li><a href="/browse/childcare-parenting">Childcare and parenting</a></li>
+          <li><a href="/browse/citizenship">Citizenship and living in the UK</a></li>
+          <li><a href="/browse/justice">Crime, justice and the law</a></li>
+          <li><a href="/browse/disabilities">Disabled people</a></li>
+          <li><a href="/browse/driving">Driving and transport</a></li>
+        </ul>
+        <ul>
+          <li><a href="/browse/education">Education and learning</a></li>
+          <li><a href="/browse/employing-people">Employing people</a></li>
+          <li><a href="/browse/environment-countryside">Environment and countryside</a></li>
+          <li><a href="/browse/housing-local-services">Housing and local services</a></li>
+          <li><a href="/browse/tax">Money and tax</a></li>
+          <li><a href="/browse/abroad">Passports, travel and living abroad</a></li>
+          <li><a href="/browse/visas-immigration">Visas and immigration</a></li>
+          <li><a href="/browse/working">Working, jobs and pensions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-inside-government">
+        <h2>Departments and policy</h2>
+
+        <ul>
+          <li><a href="/government/how-government-works">How government works</a></li>
+          <li><a href="/government/organisations">Departments</a></li>
+          <li><a href="/world">Worldwide</a></li>
+          <li><a href="/government/policies">Policies</a></li>
+          <li><a href="/government/publications">Publications</a></li>
+          <li><a href="/government/announcements">Announcements</a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+
+
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+              <h2 class="visuallyhidden">Support links</h2>
+<ul>
+  <li><a href="/help">Help</a></li>
+  <li><a href="/help/cookies">Cookies</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/help/terms-conditions">Terms and conditions</a></li>
+  <li><a href="/cymraeg" lang="cy" hreflang="cy">Rhestr o Wasanaethau Cymraeg</a></li>
+  <li>Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+</li>
+</ul>
+
+
+
+            <div class="open-government-licence">
+              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.publishing.service.gov.uk/static/govuk-template-ae4c5d21c0a7cb5bc8926a9f491de4e410244403f66c72997210c281efb92d4f.js" crossorigin="anonymous" integrity="sha256-rkxdIcCny1vIkmqfSR3k5BAkRAP2bHKZchDCge+5LU8="></script>
+
+      <script src="https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-f0bf7c5c0d22379f9911e96650480bd31caca94340a67034367514ccdfc6a5e0.js" crossorigin="anonymous" integrity="sha256-8L98XA0iN5+ZEelmUEgL0xysqUNApnA0NnUUzN/GpeA="></script>
+<script src="https://assets.publishing.service.gov.uk/static/header-footer-only-91f5443085ae0bf29cd1defe1bdda34df18e2622d3aacab5ae2987a1f40fe557.js" crossorigin="anonymous" integrity="sha256-kfVEMIWuC/Kc0d7+G92jTfGOJiLTqsq1rimHofQP5Vc="></script>
+<script src="https://assets.publishing.service.gov.uk/static/surveys-c365cf799947b629051d5f7a48bef0ee2f651a50245455d9fe36934bd954243a.js" crossorigin="anonymous" integrity="sha256-w2XPeZlHtikFHV96SL7w7i9lGlAkVFXZ/jaTS9lUJDo="></script>
+
+
+
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  <script src="https://assets.publishing.service.gov.uk/collections/application-85c193c91de52da2568590c4b6a9b0885911e7c42b345121ac665ff5da913fd5.js"></script><script type="application/ld+json">
+  {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https://www.gov.uk/"}},{"@type":"ListItem","position":2,"item":{"name":"Organisations","@id":"https://www.gov.uk/government/organisations"}},{"@type":"ListItem","position":3,"item":{"name":"Department for Exiting the European Union","@id":"https://www.gov.uk/government/organisations/department-for-exiting-the-european-union"}}]}
+</script><script type="application/ld+json">
+  {"@context":"http://schema.org","@type":"GovernmentOrganization","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gov.uk/government/organisations/department-for-exiting-the-european-union"},"name":"Department for Exiting the European Union","description":"\u003cdiv class=\"govspeak\"\u003e\u003cp\u003eWe are responsible for overseeing negotiations to leave the EU and establishing the future relationship between the UK and EU.\u003c/p\u003e\n\u003c/div\u003e"}
+</script>
+</body>
+</html>
