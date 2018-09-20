@@ -9,5 +9,10 @@ lazy val root = (project in file(".")).
     )),
     name := "parsing-heaven",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.1.0"
+    libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.1.0",
+    libraryDependencies += "org.jsoup" % "jsoup" % "1.8.3",
+    libraryDependencies ++= Seq(
+      "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1",
+      "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1" classifier "models"
+    )
   )
