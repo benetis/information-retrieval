@@ -9,7 +9,12 @@ import net.ruippeixotog.scalascraper.browser.{JsoupBrowser => JSB}
 import scala.io.{Codec, Source}
 import edu.stanford.nlp.simple._
 import org.apache.commons.text.StringEscapeUtils
+import scala.collection.immutable
 import scala.collection.immutable.ListMap
+import cats._
+import cats.data._
+import cats.implicits._
+import cats.Semigroup
 
 sealed trait SE { val dirPath: String }
 case class Google(dirPath: String) extends SE
@@ -24,6 +29,11 @@ case class CleanText(text: String) extends Doc
 
 case class TextFromSearchEngine(se: SE, doc: Doc)
 
+case class FreqMapSE(se: SE, map: Map[String, Int])
+case class SortedFreqMapSE(se: SE, map: ListMap[String, Int])
+
+case class Index(map: Map[String, Int])
+
 object ParsingHeaven extends App {
   val searchEngineList = Vector(
     Google("google"),
@@ -35,20 +45,27 @@ object ParsingHeaven extends App {
   val textsFromSearchEngines: Vector[TextFromSearchEngine] = GetFiles(searchEngineList)
   val cleanTexts: Vector[TextFromSearchEngine] = textsFromSearchEngines.map(t => t.copy(doc = Html2PlainText(t.doc)))
 
-  Indexer(cleanTexts)
+  val builtIndex: Index = Indexer(cleanTexts)
+
+  println(builtIndex.map)
 
 }
 
+object Search {
+  def apply(index: Index): Vector[String] = {
+    Vector()
+  }
+}
+
 object Indexer {
-  case class FreqMapSE(se: SE, map: Map[String, Int])
-  case class SortedFreqMapSE(se: SE, map: ListMap[String, Int])
 
-
-  def apply(cleanTexts: Vector[TextFromSearchEngine]) = {
+  def apply(cleanTexts: Vector[TextFromSearchEngine]): Index  = {
     val mapOfFreq: Vector[FreqMapSE] = cleanTexts.map(textsToMapsOfFreq)
-    val sortedMapOfFreq: Vector[SortedFreqMapSE] = mapOfFreq.map(sortByFreq)
+    Index(mapOfFreq.foldLeft(Map.empty[String, Int])((prev: Map[String, Int], curr: FreqMapSE) => prev.combine(curr.map)))
+  }
 
-    sortedMapOfFreq.foreach(println)
+  def sortedIndex(mapOfFreq: Vector[FreqMapSE]): Vector[SortedFreqMapSE] = {
+    mapOfFreq.map(sortByFreq)
   }
 
   private def textsToMapsOfFreq(cleanText: TextFromSearchEngine): FreqMapSE = {
@@ -81,7 +98,7 @@ object Html2PlainText {
   import org.jsoup.safety.Whitelist
 
   def apply(html: Doc): CleanText = {
-    val plainTextPipeline = cleanTagPerservingLineBreaks _ andThen unescapeHTML andThen removeUrl andThen removeExtendedChars
+    val plainTextPipeline = cleanTagPerservingLineBreaks _ andThen unescapeHTML andThen removeUrl andThen additionalCleaning andThen removeExtendedChars
 
     CleanText(plainTextPipeline(html.text))
   }
@@ -103,8 +120,12 @@ object Html2PlainText {
 
   private def removeUrl(str: String): String = {
     val regex = "\\b(https?|ftp|file|telnet|http|Unsure)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]"
-    val updatedStr = str.replaceAll(regex, "")
-    updatedStr.toLowerCase()
+    str.replaceAll(regex, "")
+  }
+
+  private def additionalCleaning(str: String): String = {
+    val lowerCase = str.toLowerCase()
+    lowerCase.replaceAll(":", "")
   }
 
   private def removeExtendedChars(str: String): String = str.replaceAll("[^\\x00-\\x7F]", " ")

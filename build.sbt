@@ -14,5 +14,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
       "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1",
       "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1" classifier "models"
-    )
+    ),
+    libraryDependencies += "org.typelevel" %% "cats-core" % "1.4.0",
+    scalacOptions += "-Ypartial-unification"
   )
