@@ -9,22 +9,67 @@ import net.ruippeixotog.scalascraper.browser.{JsoupBrowser => JSB}
 import scala.io.{Codec, Source}
 import edu.stanford.nlp.simple._
 import org.apache.commons.text.StringEscapeUtils
+import scala.collection.immutable.ListMap
 
-sealed trait SE[+T] { val fileContents: Vector[T] }
-case class Google[T](fileContents: Vector[T]) extends SE[T]
-case class Yandex[T](fileContents: Vector[T]) extends SE[T]
-case class Bing[T](fileContents: Vector[T]) extends SE[T]
-case class DuckDuckGo[T](fileContents: Vector[T]) extends SE[T]
-case class Yahoo[T](fileContents: Vector[T]) extends SE[T]
+sealed trait SE { val dirPath: String }
+case class Google(dirPath: String) extends SE
+case class Yandex(dirPath: String) extends SE
+case class Bing(dirPath: String) extends SE
+case class DuckDuckGo(dirPath: String) extends SE
+case class Yahoo(dirPath: String) extends SE
 
 sealed trait Doc { val text: String }
 case class HTMLText(text: String) extends Doc
 case class CleanText(text: String) extends Doc
 
-object Hello extends App {
-  val textsFromSearchEngines: Vector[SE[HTMLText]] = GetFiles()
-  val cleanTexts = textsFromSearchEngines.map(_.fileContents.map(Html2PlainText(_)))
-  cleanTexts.foreach(println)
+case class TextFromSearchEngine(se: SE, doc: Doc)
+
+object ParsingHeaven extends App {
+  val searchEngineList = Vector(
+    Google("google"),
+    Yandex("yandex"),
+    DuckDuckGo("duckduckgo"),
+    Yahoo("yahoo"),
+    Bing("bing")
+  )
+  val textsFromSearchEngines: Vector[TextFromSearchEngine] = GetFiles(searchEngineList)
+  val cleanTexts: Vector[TextFromSearchEngine] = textsFromSearchEngines.map(t => t.copy(doc = Html2PlainText(t.doc)))
+
+  Indexer(cleanTexts)
+
+}
+
+object Indexer {
+  case class FreqMapSE(se: SE, map: Map[String, Int])
+  case class SortedFreqMapSE(se: SE, map: ListMap[String, Int])
+
+
+  def apply(cleanTexts: Vector[TextFromSearchEngine]) = {
+    val mapOfFreq: Vector[FreqMapSE] = cleanTexts.map(textsToMapsOfFreq)
+    val sortedMapOfFreq: Vector[SortedFreqMapSE] = mapOfFreq.map(sortByFreq)
+
+    sortedMapOfFreq.foreach(println)
+  }
+
+  private def textsToMapsOfFreq(cleanText: TextFromSearchEngine): FreqMapSE = {
+    val words = cleanText.doc.text.split(" ").map(_.replaceAll("\\s", ""))
+
+      FreqMapSE(
+        cleanText.se,
+        words.map(word =>(word, 1))
+      .groupBy(_._1).mapValues(_.map(_._2).sum)
+          .filterNot(t => removeWord(t._1))
+      )
+  }
+
+  private def removeWord(word: String): Boolean = {
+    val stopWords = List("the","a","http","i","me","to","what","in","", " ", "of", "and", "^").toSet
+    stopWords.contains(word)
+  }
+
+  private def sortByFreq(mapOfFreq: FreqMapSE): SortedFreqMapSE = {
+    SortedFreqMapSE(mapOfFreq.se, ListMap(mapOfFreq.map.toSeq.sortWith(_._2 > _._2):_*))
+  }
 }
 
 object Html2PlainText {
@@ -35,7 +80,7 @@ object Html2PlainText {
   import org.jsoup.nodes.Document
   import org.jsoup.safety.Whitelist
 
-  def apply(html: HTMLText): CleanText = {
+  def apply(html: Doc): CleanText = {
     val plainTextPipeline = cleanTagPerservingLineBreaks _ andThen unescapeHTML andThen removeUrl andThen removeExtendedChars
 
     CleanText(plainTextPipeline(html.text))
@@ -58,7 +103,8 @@ object Html2PlainText {
 
   private def removeUrl(str: String): String = {
     val regex = "\\b(https?|ftp|file|telnet|http|Unsure)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]"
-    str.replaceAll(regex, "")
+    val updatedStr = str.replaceAll(regex, "")
+    updatedStr.toLowerCase()
   }
 
   private def removeExtendedChars(str: String): String = str.replaceAll("[^\\x00-\\x7F]", " ")
@@ -82,18 +128,13 @@ object GetFiles {
   }
 
 
-  def parseDocs(dirPath: String): Vector[HTMLText] = {
-    getListOfFiles(dirPath).map(fileToString).map(HTMLText).toVector
+  def parseDocs(dirPath: String, searchEngine: SE): Vector[TextFromSearchEngine] = {
+    getListOfFiles(dirPath).map(fileToString)
+      .map(text => TextFromSearchEngine(searchEngine, HTMLText(text))).toVector
   }
 
-  def apply(): Vector[SE[HTMLText]] = {
-    Vector(
-      Bing(parseDocs(getClass.getResource("/bing").getPath)),
-      Google(parseDocs(getClass.getResource("/google").getPath)),
-      DuckDuckGo(parseDocs(getClass.getResource("/duckduckgo").getPath)),
-      Yahoo(parseDocs(getClass.getResource("/yahoo").getPath)),
-      Yandex(parseDocs(getClass.getResource("/yandex").getPath))
-    )
+  def apply(searchEngineList: Vector[SE]): Vector[TextFromSearchEngine] = {
+    searchEngineList.flatMap((se: SE) => parseDocs(getClass.getResource(s"/${se.dirPath}").getPath, se))
   }
 }
 
