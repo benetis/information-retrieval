@@ -15,6 +15,7 @@ import cats._
 import cats.data._
 import cats.implicits._
 import cats.Semigroup
+import java.security.MessageDigest
 
 sealed trait SE { val dirPath: String }
 case class Google(dirPath: String) extends SE
@@ -27,10 +28,11 @@ sealed trait Doc { val text: String }
 case class HTMLText(text: String) extends Doc
 case class CleanText(text: String) extends Doc
 
-case class TextFromSearchEngine(se: SE, doc: Doc)
+case class DocumentName(name: String)
+case class TextFromSearchEngine(se: SE, doc: Doc, documentName: DocumentName)
 
-case class FreqMapSE(se: SE, map: Map[String, Int])
-case class SortedFreqMapSE(se: SE, map: ListMap[String, Int])
+case class FreqMapSE(se: SE, map: Map[String, Int], documentName: DocumentName)
+case class SortedFreqMapSE(se: SE, map: ListMap[String, Int], documentName: DocumentName)
 
 case class Index(map: Map[String, Int])
 
@@ -45,9 +47,11 @@ object ParsingHeaven extends App {
   val textsFromSearchEngines: Vector[TextFromSearchEngine] = GetFiles(searchEngineList)
   val cleanTexts: Vector[TextFromSearchEngine] = textsFromSearchEngines.map(t => t.copy(doc = Html2PlainText(t.doc)))
 
-  val builtIndex: Index = Indexer(cleanTexts)
+//  val builtIndex: Index = Indexer(cleanTexts)
 
-  println(builtIndex.map)
+//  println(builtIndex.map)
+
+  Indexer.sortedIndex(cleanTexts).map(i => println(i.documentName))
 
 }
 
@@ -64,7 +68,8 @@ object Indexer {
     Index(mapOfFreq.foldLeft(Map.empty[String, Int])((prev: Map[String, Int], curr: FreqMapSE) => prev.combine(curr.map)))
   }
 
-  def sortedIndex(mapOfFreq: Vector[FreqMapSE]): Vector[SortedFreqMapSE] = {
+  def sortedIndex(cleanTexts: Vector[TextFromSearchEngine]): Vector[SortedFreqMapSE] = {
+    val mapOfFreq: Vector[FreqMapSE] = cleanTexts.map(textsToMapsOfFreq)
     mapOfFreq.map(sortByFreq)
   }
 
@@ -75,7 +80,8 @@ object Indexer {
         cleanText.se,
         words.map(word =>(word, 1))
       .groupBy(_._1).mapValues(_.map(_._2).sum)
-          .filterNot(t => removeWord(t._1))
+          .filterNot(t => removeWord(t._1)),
+        cleanText.documentName
       )
   }
 
@@ -85,7 +91,7 @@ object Indexer {
   }
 
   private def sortByFreq(mapOfFreq: FreqMapSE): SortedFreqMapSE = {
-    SortedFreqMapSE(mapOfFreq.se, ListMap(mapOfFreq.map.toSeq.sortWith(_._2 > _._2):_*))
+    SortedFreqMapSE(mapOfFreq.se, ListMap(mapOfFreq.map.toSeq.sortWith(_._2 > _._2):_*), mapOfFreq.documentName)
   }
 }
 
@@ -132,9 +138,19 @@ object Html2PlainText {
 
 }
 
+object MD5 {
+  def hash(s: String) = {
+    val m = java.security.MessageDigest.getInstance("MD5")
+    val b = s.getBytes("UTF-8")
+    m.update(b, 0, b.length)
+    new java.math.BigInteger(1, m.digest()).toString(16)
+  }
+}
 
 object GetFiles {
   import java.io.File
+
+  var fileName = 1
 
   def getListOfFiles(dir: String): List[String] = {
     val file = new File(dir)
@@ -148,10 +164,9 @@ object GetFiles {
     Source.fromFile(filePath)(decoder).mkString
   }
 
-
   def parseDocs(dirPath: String, searchEngine: SE): Vector[TextFromSearchEngine] = {
     getListOfFiles(dirPath).map(fileToString)
-      .map(text => TextFromSearchEngine(searchEngine, HTMLText(text))).toVector
+      .map(text => TextFromSearchEngine(searchEngine, HTMLText(text), DocumentName(MD5.hash(text)))).toVector
   }
 
   def apply(searchEngineList: Vector[SE]): Vector[TextFromSearchEngine] = {
