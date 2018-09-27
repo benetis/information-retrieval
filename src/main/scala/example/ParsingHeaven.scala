@@ -34,6 +34,8 @@ case class TextFromSearchEngine(se: SE, doc: Doc, documentName: DocumentName)
 case class FreqMapSE(se: SE, map: Map[String, Int], documentName: DocumentName)
 case class SortedFreqMapSE(se: SE, map: ListMap[String, Int], documentName: DocumentName)
 
+case class DocumentWithSE(documentName: DocumentName, se: SE)
+
 case class Index(map: Map[String, Int])
 
 object ParsingHeaven extends App {
@@ -47,12 +49,43 @@ object ParsingHeaven extends App {
   val textsFromSearchEngines: Vector[TextFromSearchEngine] = GetFiles(searchEngineList)
   val cleanTexts: Vector[TextFromSearchEngine] = textsFromSearchEngines.map(t => t.copy(doc = Html2PlainText(t.doc)))
 
-//  val builtIndex: Index = Indexer(cleanTexts)
 
-//  println(builtIndex.map)
+  val builtIndex: Index = Indexer(cleanTexts)
+  println("Full index, merged from all documents")
+  println(builtIndex.map)
 
-  Indexer.sortedIndex(cleanTexts).map(i => println(i.documentName))
+  val documentsIndexes = Indexer.sortedIndex(cleanTexts)
 
+  println("All document indexes")
+  documentsIndexes.foreach(i => println(i.documentName))
+
+  println("Metaindexer with query and 'AND' support")
+  MetaIndexer("european and sweden", documentsIndexes).foreach(println)
+
+}
+
+object MetaIndexer {
+
+  case class Query(terms: Array[String])
+
+  def apply(query: String, documentIndexes: Vector[SortedFreqMapSE]): Vector[DocumentWithSE] = {
+    filterIndexes(splitQuery(query), documentIndexes)
+  }
+
+  private def splitQuery(query: String): Query = {
+    Query(query.split(" and "))
+  }
+
+  private def filterIndexes(query: Query, documentIndexes: Vector[SortedFreqMapSE]): Vector[DocumentWithSE] = {
+    documentIndexes.flatMap(index => {
+      val documentKeywords = index.map.keySet
+      val queryKeywordsByAnd = query.terms.toSet
+
+      if (queryKeywordsByAnd.subsetOf(documentKeywords))
+        Some(DocumentWithSE(index.documentName, index.se))
+      else None
+    })
+  }
 }
 
 object Search {
