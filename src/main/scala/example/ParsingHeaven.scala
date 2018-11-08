@@ -16,6 +16,9 @@ import cats.data._
 import cats.implicits._
 import cats.Semigroup
 import java.security.MessageDigest
+import edu.stanford.nlp.simple.Document
+import java.util
+import scala.collection.JavaConversions._
 
 sealed trait SE { val dirPath: String }
 case class Google(dirPath: String) extends SE
@@ -106,12 +109,31 @@ object Indexer {
     mapOfFreq.map(sortByFreq)
   }
 
+  implicit class UtilList(list: util.List[Sentence]) {
+    def map[A, B](f: Sentence => B): Vector[B] = {
+      var newList = scala.collection.mutable.ListBuffer.empty[B]
+      list.forEach(sent => {
+        newList += f(sent)
+      })
+      newList.toVector
+    }
+  }
+
   private def textsToMapsOfFreq(cleanText: TextFromSearchEngine): FreqMapSE = {
-    val words = cleanText.doc.text.split(" ").map(_.replaceAll("\\s", ""))
+
+    val doc: Document = new Document(cleanText.doc.text)
+
+    val sentences: util.List[Sentence] = doc.sentences()
+
+    val lemmas: Vector[util.List[String]] = sentences.map((s: Sentence) => s.lemmas())
+
+    val lemmasConcat: Vector[String] = lemmas.foldLeft(Vector.empty[String])((prev, curr: util.List[String]) => {
+      prev ++ curr
+    })
 
       FreqMapSE(
         cleanText.se,
-        words.map(word =>(word, 1))
+        lemmasConcat.map(word =>(word, 1))
       .groupBy(_._1).mapValues(_.map(_._2).sum)
           .filterNot(t => removeWord(t._1)),
         cleanText.documentName
