@@ -53,7 +53,11 @@ object ParsingHeaven extends App {
 object VectorSpaceModelRunner {
   def run(cleanTexts: Vector[CleanTextFromSearchEngine]): IO[Unit] = {
     IO {
-      VectorSpaceModelIndexer(cleanTexts)
+      val index = VectorSpaceModelIndexer(cleanTexts)
+
+      VectorSpaceModelIndexer.query("european and sweden", cleanTexts, index).foreach(r => {
+        println(r.similarity, r.docWithWeighs.documentName, r.docWithWeighs.se)
+      })
     }
   }
 }
@@ -71,7 +75,7 @@ object LogicModelRunner {
       documentsIndexes.foreach(i => println(i.documentName))
 
       println("Metaindexer with query and 'AND' support")
-      MetaIndexer("european and sweden", documentsIndexes).foreach(println)
+      LogicModelMetaIndexer("european and sweden", documentsIndexes).foreach(println)
 
     }
   }

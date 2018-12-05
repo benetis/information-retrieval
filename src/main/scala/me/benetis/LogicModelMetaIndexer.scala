@@ -1,6 +1,6 @@
 package me.benetis
 
-object MetaIndexer {
+object LogicModelMetaIndexer {
 
   case class Query(terms: Array[String])
 
