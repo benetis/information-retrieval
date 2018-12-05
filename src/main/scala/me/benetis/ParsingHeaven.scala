@@ -2,6 +2,7 @@ package me.benetis
 
 import scala.collection.immutable.ListMap
 import cats.effect.IO
+import me.benetis.VectorSpaceModelIndexer.DocumentWeights
 
 sealed trait SE { val dirPath: String }
 case class Google(dirPath: String) extends SE
@@ -18,13 +19,14 @@ case class DocumentName(name: String)
 case class DirtyTextFromSearchEngine(se: SE, doc: Doc, documentName: DocumentName)
 case class CleanTextFromSearchEngine(se: SE, doc: Doc, documentName: DocumentName)
 
-case class FreqMapSE(se: SE, map: Map[String, Int], documentName: DocumentName)
+case class DocumentTermsFrequency(value: Map[String, Int])
+
+case class FreqMapSE(se: SE, map: DocumentTermsFrequency, documentName: DocumentName)
 case class SortedFreqMapSE(se: SE, map: ListMap[String, Int], documentName: DocumentName)
 
 case class DocumentWithSE(documentName: DocumentName, se: SE)
 
-case class LogicModelIndex(map: Map[String, Int])
-case class VectorSpaceModelIndex(map: Map[String, Int])
+case class LogicModelIndex(map: DocumentTermsFrequency)
 
 
 object ParsingHeaven extends App {
@@ -37,7 +39,7 @@ object ParsingHeaven extends App {
   )
   val textsFromSearchEngines: Vector[DirtyTextFromSearchEngine] = GetFiles(searchEngineList)
   val cleanTexts: Vector[CleanTextFromSearchEngine] = textsFromSearchEngines
-    .map(t => example.CleanTextFromSearchEngine(
+    .map(t => CleanTextFromSearchEngine(
       se = t.se,
       documentName = t.documentName,
       doc = Html2PlainText(t.doc))
@@ -51,7 +53,7 @@ object ParsingHeaven extends App {
 object VectorSpaceModelRunner {
   def run(cleanTexts: Vector[CleanTextFromSearchEngine]): IO[Unit] = {
     IO {
-
+      VectorSpaceModelIndexer(cleanTexts)
     }
   }
 }
